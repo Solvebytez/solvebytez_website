@@ -8371,9 +8371,17 @@ figure {
 .footer-two {
     background-color: #9f9c9c47;
 }
-
 .footer-logo {
-  margin-top: -10px; }
+     margin-top: -10px; 
+    background: white;
+    width: 100%;
+    max-width: 74%;
+    /* border-radius: 22px; */
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+
 
 .footer-widget {
   margin-bottom: 50px; }
