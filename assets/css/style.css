@@ -669,10 +669,13 @@ a.theme-btn {
   background-color: #104cba;
     background-image: linear-gradient(45deg, black, transparent); }
 
-/* Text White */
+/* Text White 
 .text-white *,
 .text-white a {
-  color: white; }
+  color: white; }*/
+.footer-widget-area {
+    color: #000;
+}
 
 /* Overlay */
 .overlay {
@@ -8366,7 +8369,7 @@ figure {
 /**************** 32. Main Footer Style ****************/
 /*******************************************************/
 .footer-two {
-    background-color: #0e1e2a;
+    background-color: #9f9c9c47;
 }
 
 .footer-logo {
