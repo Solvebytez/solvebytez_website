@@ -4171,6 +4171,7 @@ Text White
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
+   justify-content: space-between;
    }
 
 @media only screen and (max-width: 991px) {
