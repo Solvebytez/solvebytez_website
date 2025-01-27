@@ -4536,6 +4536,9 @@ Text White
 .header-three .header-upper {
   /*position: absolute;*/
   border-bottom: 1px solid #485165; }
+.it-header-2-top-right ul {
+    display: flex;
+}
 
 .header-three.fixed-header .header-upper {
   /*background-color: #104cba;
