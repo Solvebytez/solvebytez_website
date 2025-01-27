@@ -4126,8 +4126,9 @@ Text White
 /*******************************************************/
 /******************* 06. Header style ******************/
 /*******************************************************/
-.header-three .container {
-    max-width: 1450px;
+.container.clearfix {
+    width: 100%;
+    max-width: 1360px;
 }
 .container {
     max-width: 1200px;
