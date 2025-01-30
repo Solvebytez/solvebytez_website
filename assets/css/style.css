@@ -4153,6 +4153,9 @@ Text White
 .top-left ul li i{
 	color:#fff;
 }
+.social-style-one a {
+    margin-left: 19px;
+}
   .main-header .header-upper {
     z-index: 5;
     width: 100%;
