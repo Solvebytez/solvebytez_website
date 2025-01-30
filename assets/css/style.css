@@ -4147,6 +4147,9 @@ Text White
 .header-three .container {
   max-width: 1380px;
   }
+.header-three .top-left {
+    display: block;
+}
   .main-header .header-upper {
     z-index: 5;
     width: 100%;
