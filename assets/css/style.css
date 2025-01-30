@@ -210,6 +210,14 @@ input[type=checkbox], input[type=radio] {
     color: #1f1f8b;
     display: inline-block;
 }
+.container {
+  max-width: 1200px; }
+  .container.container-1250 {
+    max-width: 1280px; }
+  .container.container-1635 {
+    max-width: 1665px; }
+  .container.container-1000 {
+    max-width: 1030px; }
 /** Button style **/
 
 .about-button a{
@@ -4136,6 +4144,9 @@ Text White
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
+.header-four .container {
+  max-width: 1450px;
+  }
   .main-header .header-upper {
     z-index: 5;
     width: 100%;
