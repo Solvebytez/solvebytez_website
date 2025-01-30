@@ -4569,9 +4569,7 @@ Text White
   @media only screen and (max-width: 767px) {
     .header-three .top-right {
       margin-right: auto; } }
-  .header-three .top-right .office-time {
-    display: block;
-    margin-right: 0; }
+ 
 
 .header-three .main-menu {
   margin-left: auto; }
