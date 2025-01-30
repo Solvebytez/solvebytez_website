@@ -4150,6 +4150,9 @@ Text White
 .header-three .top-left {
     display: block;
 }
+.top-left ul li i{
+	color:#fff;
+}
   .main-header .header-upper {
     z-index: 5;
     width: 100%;
