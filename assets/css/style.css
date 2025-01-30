@@ -3577,6 +3577,7 @@ Text White
   .rmx-150 {
     margin-left: 150px; } }
 
+
 /*******************************************************/
 /***************** 05. Custom Animation ****************/
 /*******************************************************/
@@ -4126,13 +4127,6 @@ Text White
 /*******************************************************/
 /******************* 06. Header style ******************/
 /*******************************************************/
-.container.clearfix {
-    width: 100%;
-    max-width: 1360px;
-}
-.container {
-    max-width: 1200px;
-}
 .main-header {
   position: relative;
   left: 0px;
@@ -4142,11 +4136,6 @@ Text White
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
-.it-header-2-top-social a {
-    margin-right: -4px;
-    margin-left: 13px;
-   padding-left: 5px;
-}
   .main-header .header-upper {
     z-index: 5;
     width: 100%;
@@ -4173,8 +4162,7 @@ Text White
     box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1); }
 
 .header-top {
-  margin-left: -97px;
-  color: #fff;
+  color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4183,8 +4171,7 @@ Text White
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-   justify-content: space-between;
-   }
+  justify-content: space-between; }
 
 @media only screen and (max-width: 991px) {
   .top-left {
@@ -4202,7 +4189,6 @@ Text White
   justify-content: start; }
   .top-left ul li {
     margin-right: 50px; }
-
     @media only screen and (max-width: 1500px) {
       .top-left ul li {
         margin-right: 15px; } }
@@ -4548,10 +4534,6 @@ Text White
 .header-three .header-upper {
   /*position: absolute;*/
   border-bottom: 1px solid #485165; }
-.it-header-2-top-right ul {
-    display: flex;
-    margin-right: -64px;
-}
 
 .header-three.fixed-header .header-upper {
   /*background-color: #104cba;
@@ -4579,7 +4561,6 @@ Text White
 
 .header-three .menu-btn {
   margin-left: 15px; }
-
 
 
 /*******************************************************/
