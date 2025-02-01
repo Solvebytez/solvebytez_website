@@ -4709,6 +4709,29 @@ span.custom-services {
     font-weight: 600;
     border-bottom: 3px solid;
 }
+ @media (max-width: 768px) {
+                      
+            .about-images-shape {
+                text-align: center;
+            }
+            .about-content {
+                padding: 15px;
+            }
+        }
+@media (max-width: 480px) {
+            
+            .section-title {
+                margin-bottom: 20px;
+            }
+            .animated-paragraph {
+                font-size: 14px;
+            }
+            .about-images-shape img {
+                width: 100%;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+        }
 .p-item img,
 .p-item video {
   perspective: 1000px;
