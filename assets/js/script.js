@@ -822,5 +822,19 @@
         
         
     });
+ document.addEventListener('contextmenu', function(e) {
+    e.preventDefault(); // Disable right-click menu
+  });
 
+  document.onkeydown = function(e) {
+    if (e.keyCode == 123) { // Disable F12 (Inspect)
+      return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { // Disable Ctrl+Shift+I
+      return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { // Disable Ctrl+U (View Source)
+      return false;
+    }
+  }
 })(window.jQuery);
