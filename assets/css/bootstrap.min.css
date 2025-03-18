@@ -101,6 +101,18 @@ article,aside,figcaption,figure,footer,header,hgroup,main,nav,section {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem
 }
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
  @media (min-width: 992px) {
     .navbar-expand-lg {
         -ms-flex-flow:row nowrap;
