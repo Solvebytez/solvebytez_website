@@ -180,7 +180,7 @@
                 dots: true,
                 infinite: true,
                 autoplay: false,
-                autoplaySpeed: 1200,
+                autoplaySpeed: 2000,
                 arrows: false,
                 speed: 1000,
                 focusOnSelect: true,
