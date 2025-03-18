@@ -149,7 +149,7 @@
                 autoplay: true,
                 arrows: true,
                 pauseOnHover: false,
-                autoplaySpeed: 500,
+                autoplaySpeed: 730,
                 prevArrow: '<button class="prev"><i class="fas fa-angle-left"></i></button>',
                 nextArrow: '<button class="next"><i class="fas fa-angle-right"></i></button>',
                 slidesToShow: 1,
