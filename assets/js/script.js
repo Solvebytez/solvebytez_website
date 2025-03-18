@@ -245,10 +245,367 @@
         } 
         
         
-    
+        // 12. Gallery Three
+        if ($('.gallery-three-wrap').length) {
+            $('.gallery-three-wrap').slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: true,
+                prevArrow: $('.gallery-prev'),
+                nextArrow: $('.gallery-next'),
+                speed: 1000,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 575,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        } 
         
-   
-      
+        
+        // 13. Testimonial One
+        if ($('.testimonial-wrap').length) {
+            $('.testimonial-wrap').slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        } 
+               
+        
+        // 14. Testimonial Two
+        if ($('.testimonial-two-active').length) {
+            $('.testimonial-two-active').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+        } 
+        
+        
+        // 15. Testimonial Three
+        if ($('.testimonial-three-active').length) {
+            $('.testimonial-three-active').slick({
+                dots: false,
+                infinite: false,
+                autoplay: false,
+                fade: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                asNavFor: '.testimonial-three-thumbs'
+            });
+        } 
+        
+        if ($('.testimonial-three-thumbs').length) {
+            $('.testimonial-three-thumbs').slick({
+                dots: false,
+                infinite: false,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                focusOnSelect: true,
+                asNavFor: '.testimonial-three-active'
+            });
+        } 
+        
+        
+        // 16. Testimonial Four
+        if ($('.testimonial-four-active').length) {
+            $('.testimonial-four-active').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        } 
+        
+        
+        // 17. Testimonial Five Slider
+        if ($('.testimonial-five-wrap').length) {
+            $('.testimonial-five-wrap').slick({
+                infinite: true,
+                autoplay: true,
+                arrows: true,
+                pauseOnHover: false,
+                autoplaySpeed: 5000,
+                prevArrow: '<button class="prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="fas fa-chevron-right"></i></button>',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
+                cssEase: 'linear',
+            });
+        }
+        
+        
+        // 18. Blog Carousel
+        if ($('.blog-carousel').length) {
+            $('.blog-carousel').slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: true,
+                speed: 1000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                prevArrow: $('.blog-prev'),
+                nextArrow: $('.blog-next'),
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        } 
+        
+        
+        // 19. Services Slider
+        if ($('.service-slider-wrap').length) {
+            $('.service-slider-wrap').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                speed: 1000,
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 575,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        } 
+        
+        
+        // 20. Actions Slider
+        if ($('.actions-active').length) {
+            $('.actions-active').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: true,
+                prevArrow: $('.action-prev'),
+                nextArrow: $('.action-next'),
+                centerMode: false,
+                speed: 1000,
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                responsive: [
+                    {
+                        breakpoint: 1199,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 850,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 575,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        }
+        
+        // 21. Sellers Slider
+        if ($('.sellers-active').length) {
+            $('.sellers-active').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                centerMode: false,
+                speed: 1000,
+                slidesToShow: 5,
+                slidesToScroll: 2,
+                responsive: [
+                    {
+                        breakpoint: 1199,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 776,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        }
+        
+        
+        // 22. Collection Category
+        if ($('.collection-category-active').length) {
+            $('.collection-category-active').slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: true,
+                speed: 1000,
+                prevArrow: '<button class="prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="fas fa-chevron-right"></i></button>',
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        } 
+         
+        
+        /* 23. CountDown Start */
+        $('.count-down').each(function () {
+            $(this).countdown({
+                date: $(this).attr('data-date')
+            });
+        });
+        
+        
+         /* 24. Fact Counter + Text Count - Our Success */
+        if ($('.success-item').length) {
+            $('.success-item').appear(function () {
+
+                var $t = $(this),
+                    n = $t.find(".count-text").attr("data-stop"),
+                    r = parseInt($t.find(".count-text").attr("data-speed"), 10);
+
+                if (!$t.hasClass("counted")) {
+                    $t.addClass("counted");
+                    $({
+                        countNum: $t.find(".count-text").text()
+                    }).animate({
+                        countNum: n
+                    }, {
+                        duration: r,
+                        easing: "linear",
+                        step: function () {
+                            $t.find(".count-text").text(Math.floor(this.countNum));
+                        },
+                        complete: function () {
+                            $t.find(".count-text").text(this.countNum);
+                        }
+                    });
+                }
+
+            }, {
+                accY: 0
+            });
+        }
+        
+        
         // 25. Gallery Filtering
         $(".portfolio-filter li").on('click', function () {
             $(".portfolio-filter li").removeClass("current");
@@ -301,7 +658,17 @@
                 scrollTop : position
             },1000);
         });
-             
+        
+        
+        // 29. Pricing Tab Switch
+        if ($('.pricing-tab').length) {
+            $('.pricing-tab a:first-child').click(function () {
+                $(this).parent('.pricing-tab').addClass('for-yearly');
+            });
+            $('.pricing-tab a:last-child').click(function () {
+                $(this).parent('.pricing-tab').removeClass('for-yearly');
+            });
+        }
         
         
         // ## Service Box Active
@@ -321,8 +688,69 @@
         });
         
         
-       
+        // ## Mobile Screen Slider
+        if ($('.mobile-screens-active').length) {
+            $('.mobile-screens-active').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                centerMode: false,
+                speed: 1000,
+                slidesToShow: 5,
+                slidesToScroll: 2,
+                responsive: [
+                    {
+                        breakpoint: 1199,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 778,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 575,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 375,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        }
         
+        
+        // ## Testimonial Seven Slider
+        if ($('.testimonial-seven-slider').length) {
+            $('.testimonial-seven-slider').slick({
+                dots: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: true,
+                speed: 1000,
+                prevArrow: '<button class="prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="fas fa-chevron-right"></i></button>',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+        } 
+          
+        
+        
+    });
     
     
     /* ==========================================================================
