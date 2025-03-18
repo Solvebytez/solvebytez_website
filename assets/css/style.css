@@ -89,70 +89,6 @@ header:after, section:after, footer:after {
   clear: both;
   content: ""; }
 
-/*======= Input Styles =======*/
-input,
-select,
-textarea,
-.form-control {
-  width: 100%;
-  height: auto;
-  padding: 16px 30px;
-  border-radius: 5px;
-  background-color: #fff;
-  border: 2px solid #cfdbf1; }
-
-textarea {
-  display: inherit;
-  padding-top: 20px; }
-
-label {
-  cursor: pointer;
-  font-weight: 500;
-  margin-bottom: 5px;
-  color: #000000; }
-
-.form-group {
-  margin-bottom: 25px; }
-
-input:focus,
-button:focus,
-.form-control:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-color: #cfdbf1; }
-
-input[type=search]::-ms-clear {
-  display: none;
-  width: 0;
-  height: 0; }
-
-input[type=search]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0; }
-
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
-  display: none; }
-
-input[type=checkbox], input[type=radio] {
-  height: auto;
-  width: auto; }
-
-.text-white input,
-.text-white select,
-.text-white textarea,
-.text-white .form-control {
-  color: #ffffff50;
-  border-color: #273540;
-  background: #0e1e2a; }
-
-.text-white label {
-  margin-bottom: 10px; }
-
 /*******************************************************/
 /*****************  02. Common Classes *****************/
 /*******************************************************/
@@ -252,28 +188,7 @@ a.theme-btn {
     -o-transition: 0.5s;
     transition: 0.5s;
     margin-left: 10px; }
-  .theme-btn.btn-circle,
-  a.theme-btn.btn-circle {
-    border-radius: 50px;
-    padding-left: 35px;
-    padding-right: 35px; }
-  .theme-btn:hover,
-  a.theme-btn:hover {
-    color: white;
-    background: #000000; }
-    .theme-btn:hover i,
-    a.theme-btn:hover i {
-      margin-left: 15px;
-      margin-right: -5px; }
-  .theme-btn.style-two,
-  a.theme-btn.style-two {
-    padding: 11px 35px;
-    background: #0850b0;
-    border: 1px solid #88a6dd; }
-    .theme-btn.style-two:hover,
-    a.theme-btn.style-two:hover {
-      background: #000000;
-      border-color: #000000; }
+ 
   .theme-btn.style-three,
   a.theme-btn.style-three {
     padding: 11px 40px;
