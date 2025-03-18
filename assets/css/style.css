@@ -4677,6 +4677,16 @@ li a.credits {
 }
 
 /* Slider navigation end */
+@media only screen and (max-width: 992px) {
+	li a.credits {
+    position: absolute;
+    z-index: 4;
+    /* right: 73%; */
+    left: 3%;
+    bottom: 20px;
+    top: 100px;
+}
+}
 
 @media only screen and (max-width: 768px) {
   nav {
