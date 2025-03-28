@@ -8337,6 +8337,18 @@ h1.policy-heading {
 .contact-style-one p a {
     color: #1f1fbd;
 }
+.social-style-one a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(5 20 133);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.9s ease;
+}
 
 /*******************************************************/
 /***************** 30. Sellers Section *****************/
