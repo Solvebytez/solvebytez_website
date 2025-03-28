@@ -8331,6 +8331,12 @@ h1.policy-heading {
     color: #1f1f8b;
     color: black;
 }
+.contact-style-one {
+    width: 100%;
+}
+.contact-style-one p a {
+    color: #1f1fbd;
+}
 
 /*******************************************************/
 /***************** 30. Sellers Section *****************/
