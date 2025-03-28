@@ -8311,6 +8311,26 @@ figure {
 .privacy-section {
     padding: 120px 0;
 }
+h1.policy-heading {
+    font-size: 45px;
+    color: #1f1f8b;
+    font-weight: 500;
+    width: 100%;
+}
+.privacy-section h2 {
+    width: 100%;
+    color: #1f1f8b;
+}
+.privacy-section h3 {
+    color: #323232a8;
+    font-size: 19px;
+    font-weight: 700;
+    width: 100%;
+}
+.privacy-section ul li p strong {
+    color: #1f1f8b;
+    color: black;
+}
 
 /*******************************************************/
 /***************** 30. Sellers Section *****************/
