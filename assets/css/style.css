@@ -8304,6 +8304,12 @@ figure {
 }
 .mil-h2 {
     text-transform: uppercase;
+    font-size: 45px;
+    color: #1f1f8b;
+    font-weight: 500;
+}
+.privacy-section {
+    padding: 120px 0;
 }
 
 /*******************************************************/
