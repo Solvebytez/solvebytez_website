@@ -8213,6 +8213,98 @@ figure {
         margin: 1.5px 3px;
         background: white;
         border-radius: 50%; }
+/**********************************************/
+/***************30. privacy policay***********/
+/**********************************************/
+.mil-banner-sm {
+    height: 550px;
+    position: relative;
+    padding-top: 220px;
+    padding-bottom: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mil-deep-bg {
+    background-color: rgba(18, 24, 32, .05);
+}
+.mil-banner-sm .mil-background-image.mil-background-image-default {
+    z-index: 0;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    opacity: .05;
+}
+
+.mil-banner-sm .mil-background-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.mil-banner-sm .mil-banner-content {
+    width: 100%;
+    position: relative;
+}
+.mil-mb-30 {
+    margin-bottom: 30px !important;
+}
+.mil-breadcrumbs ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+}
+.mil-breadcrumbs li {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mil-breadcrumbs li a {
+    color: #121820;
+    -webkit-transition: .2s cubic-bezier(0,0,.3642,1);
+    transition: .2s cubic-bezier(0,0,.3642,1);
+}
+.mil-breadcrumbs li:after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #f57c00;
+    margin: 0 15px;
+}
+.mil-breadcrumbs li:last-child {
+    cursor: not-allowed;
+}
+.mil-breadcrumbs li {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.mil-h2 {
+    text-transform: uppercase;
+}
 
 /*******************************************************/
 /***************** 30. Sellers Section *****************/
