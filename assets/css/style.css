@@ -8217,7 +8217,7 @@ figure {
 /***************30. privacy policay***********/
 /**********************************************/
 .mil-banner-sm {
-    height: 550px;
+    height: 370px;
     position: relative;
     padding-top: 220px;
     padding-bottom: 120px;
@@ -8309,7 +8309,10 @@ figure {
     font-weight: 500;
 }
 .privacy-section {
-    padding: 120px 0;
+    padding: 85px 0;
+}
+.main-privacy{
+ border: 1px solid black;
 }
 h1.policy-heading {
     font-size: 45px;
@@ -8330,6 +8333,9 @@ h1.policy-heading {
 .privacy-section ul li p strong {
     color: #1f1f8b;
     color: black;
+}
+.privacy-section h4 {
+    width: 100%;
 }
 .contact-style-one {
     width: 100%;
