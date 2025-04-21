@@ -248,7 +248,8 @@
     </ul>
            <div class="form-box">
                 <h3>Get In Touch</h3>                
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="795a0a99-2e21-476f-8630-74faddb09008">
                   <input type="text" class="form-controls" placeholder="Name" required>
                   <input type="email" class="form-controls" placeholder="Email" required>
                   <input type="text" class="form-controls" placeholder="Mobile Number" required>
@@ -268,7 +269,11 @@
                 
                   <textarea class="form-controls" placeholder="Message" rows="3" required></textarea>
                  
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                 <div class="about-button">
+                                                <a href="#" class="theme-btn">
+                                                    <button type="submit" class="theme-btn">Send Message</button>
+                                                </a>
+                                            </div>
                 </form>
               </div>
 </div>
