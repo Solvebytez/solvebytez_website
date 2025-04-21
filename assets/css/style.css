@@ -154,7 +154,7 @@ input[type=checkbox], input[type=radio] {
   margin-bottom: 10px; }
  .form-box {
           position: absolute;
-          top: 50%;
+          top: 63%;
           right: 50px;
           transform: translateY(-50%);
           background: white;
@@ -176,6 +176,14 @@ input[type=checkbox], input[type=radio] {
           color: #666;
           margin-bottom: 20px;
         }
+input, select, textarea, .form-controls {
+    width: 100%;
+    height: auto;
+    padding: 13px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #cfdbf1;
+}
     
         .form-box .form-control {
           font-size: 14px;
