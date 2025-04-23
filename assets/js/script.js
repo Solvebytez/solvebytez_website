@@ -824,3 +824,13 @@
     });
 
 })(window.jQuery);
+
+
+
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const whatsappLink = isMobile
+      ? "https://wa.me/919599179795?text=Hi%20there%2C%20I%20am%20interested%20in%20your%20services"
+      : "https://web.whatsapp.com/send?phone=919599179795&text=Hi%20there%2C%20I%20am%20interested%20in%20your%20services";
+  
+    document.getElementById("whatsapp-btn").setAttribute("href", whatsappLink);
+
