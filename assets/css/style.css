@@ -8624,6 +8624,8 @@ p.privacy-pera {
 .btn-floating.phone {
     bottom: 85px;
     background-color: #760f10;
+	background: #104cba;
+    background-image: linear-gradient(45deg, black, transparent);
 }
 
 
