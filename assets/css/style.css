@@ -8608,10 +8608,13 @@ p.privacy-pera {
 
 .btn-floating {
     position: fixed;
-   /* right: 25px;*/
+    right: 25px;
     overflow: hidden;
     width: 50px;
+    margin-bottom: 5%;
     height: 50px;
+    /* top: 82%; */
+    /* top: 206px; */
     border-radius: 100px;
     border: 0;
     z-index: 9999;
