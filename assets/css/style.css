@@ -166,6 +166,20 @@ input[type=checkbox], input[type=radio] {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     z-index: 272;
 }
+.form-boxs {
+    position: relative;
+    /* top: -7%; */
+    transform: translateY(-50%);
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 341px;
+    margin-top: -323px;
+    left: -28px;
+    float: right;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    z-index: 272;
+}
  .buttom-form-box {
         display: none;
     }
@@ -173,6 +187,9 @@ input[type=checkbox], input[type=radio] {
     .form-box {
         display: none;
     }
+	.form-boxs{
+	display: block;	
+	}
     .buttom-form-box {
         display: block;
     }
