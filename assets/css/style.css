@@ -8652,6 +8652,7 @@ p.privacy-pera {
     background-color: #760f10;
 	background: #104cba;
     background-image: linear-gradient(45deg, black, transparent);
+	display:none;
 }
 
 
@@ -8669,6 +8670,11 @@ p.privacy-pera {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+ @media only screen and (max-width: 992px){
+	.btn-floating.phone{
+		display:block;
+	}
+}
   @media only screen and (max-width: 767px) {
     .footer-top .contact-info {
       -webkit-box-pack: justify;
