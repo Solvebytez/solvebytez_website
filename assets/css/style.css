@@ -8755,20 +8755,20 @@ p.privacy-pera {
     color: #ffffff;
     transition: all 0.9s ease;
     }
-   .popup-success {
-            display: none;
-            position: fixed;
-            z-index: 9999;
-            background: #28a745;
-            color: #fff;
-            padding: 20px 30px;
-            border-radius: 10px;
-            font-weight: bold;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
+  .popup-success {
+    display: none; 
+    position: fixed;
+    z-index: 9999;
+    background: #28a745;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    top: -67px;
+    left: -5%;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
     .copyright-inner .social-style-one a:hover{
      	background-color: #104cba;
        background-image: linear-gradient(45deg, black, transparent);
