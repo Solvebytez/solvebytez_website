@@ -246,40 +246,39 @@
         </li>
       </ul>
            <div class="form-box">
-                <h3>Get In Touch</h3>                
-                <!--<form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="795a0a99-2e21-476f-8630-74faddb09008">-->
-                <div class="popup-success" id="popupSuccess">Thank you! Your message has been submitted successfully.</div>
-               <form action="https://script.google.com/macros/s/AKfycbxTdENZyjBpvIOmh_JJKDsw9wGHTj6UkSEsKaT07s-ZIXimlgxcnJ3dJY19ErPo3BlO/exec" method="post">
-                  <input type="text" id="name" name="name" class="form-controls" placeholder="Name" required="">
-                  <input type="email" id="email" name="email" class="form-controls" placeholder="Email" required="">
-                  <input type="text" class="form-controls" placeholder="Mobile Number" required="">
-                 
-                    <select class="form-controls" id="service" name="service" required="">
-                        <option value="default" selected="">Service</option>
-                        <option value="Mobile Application">Mobile Application</option>
-                        <option value="Web Application">Web Application</option>
-                        <option value="Digital Marketing">Digital Marketing</option>
-                        <option value="Game Development">Game Development</option>
-                        <option value="Augmented Reality (AR)">Augmented Reality (AR)</option>
-                        <option value="Virtual Reality (VR)">Virtual Reality (VR)</option>
-                        <option value="Blockchain Technology">Blockchain Technology</option>
-                        <option value="AI-Powered Solutions">AI-Powered Solutions</option>
-                        <option value="UI/UX">UI/UX</option>
-                    </select>
-                
-                  <textarea class="form-controls" placeholder="Message" rows="3" required="" style="width: 288px; height: 50px;"></textarea>
-                    <!-- Hidden Date Field -->
+    <h3>Get In Touch</h3>
+
+    <!-- Success Popup -->
+    <div class="popup-success" id="popupSuccess">Thank you! Your message has been submitted successfully.</div>
+
+    <form id="contactForm" action="https://script.google.com/macros/s/AKfycbxTdENZyjBpvIOmh_JJKDsw9wGHTj6UkSEsKaT07s-ZIXimlgxcnJ3dJY19ErPo3BlO/exec" method="post" data-gtm-form-interact-id="0">
+        <input type="text" id="name" name="name" class="form-controls" placeholder="Name" required data-gtm-form-interact-field-id="0">
+        <input type="email" id="email" name="email" class="form-controls" placeholder="Email" required data-gtm-form-interact-field-id="1">
+        <input type="text" id="mobile" name="mobile" class="form-controls" placeholder="Mobile Number" required data-gtm-form-interact-field-id="2">
+
+        <select class="form-controls" id="service" name="service" required data-gtm-form-interact-field-id="3">
+            <option value="default" selected="">Service</option>
+            <option value="Mobile Application">Mobile Application</option>
+            <option value="Web Application">Web Application</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="Game Development">Game Development</option>
+            <option value="Augmented Reality (AR)">Augmented Reality (AR)</option>
+            <option value="Virtual Reality (VR)">Virtual Reality (VR)</option>
+            <option value="Blockchain Technology">Blockchain Technology</option>
+            <option value="AI-Powered Solutions">AI-Powered Solutions</option>
+            <option value="UI/UX">UI/UX</option>
+        </select>
+
+        <textarea id="message" name="message" class="form-controls" placeholder="Message" rows="3" required style="width: 288px; height: 50px;" data-gtm-form-interact-field-id="4"></textarea>
+
+        <!-- Hidden Date Field -->
         <input type="hidden" name="date" id="date">
-                 
-                 <div class="about-button">
-                                                <a href="#" class="theme-btn">
-                                                    <button type="submit" class="theme-btn">Send Message</button>
-                                                </a>
-                                            </div>
-                </form>
-              </div>
-            
+
+        <div class="about-button">
+            <button type="submit" class="theme-btn">Send Message</button>
+        </div>
+    </form>
+</div>
           
 </div>
         <!-- Hero Section End -->
