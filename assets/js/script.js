@@ -825,6 +825,47 @@
 
 })(window.jQuery);
 
+ // Get the current date in 'YYYY-MM-DD' format
+        const currentDate = new Date().toISOString().split('T')[0];
+        document.getElementById('date').value = currentDate;
+
+        // Get the form and popup elements
+        const form = document.getElementById('contactForm');
+        const popup = document.getElementById('popupSuccess');
+
+        // Add event listener for form submission
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent default form submission
+
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                if (response.ok) {
+                    // Show success popup
+                    popup.style.display = 'block';
+                    setTimeout(() => {
+                        popup.style.display = 'none'; // Hide after 3 seconds
+                    }, 3000);
+
+                    // Reset the form
+                    form.reset();
+                } else {
+                    alert("Submission failed. Try again.");
+                }
+            }).catch(error => {
+                alert("Something went wrong!");
+                console.error(error);
+            });
+        });
+
+
+
+
+
+
 
 
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
