@@ -8685,6 +8685,12 @@ p.privacy-pera {
 	  }
 
   }
+  @media only screen and (max-width: 670px) { 
+	  .btn-floating {
+		 margin-bottom: 7%;  
+	  }
+
+  }
   .footer-top .contact-info li {
     width: 33.33%;
     padding-top: 15px;
