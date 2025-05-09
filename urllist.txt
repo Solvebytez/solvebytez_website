@@ -1,7 +1,7 @@
 https://solvebytez.com/
 https://solvebytez.com/index
-https://solvebytez.com/about-us.html
-https://solvebytez.com/Mobile-Application.html
+https://solvebytez.com/about-us/
+https://solvebytez.com/Mobile-Application/
 https://solvebytez.com/Web-application.html
 https://solvebytez.com/Digital%20Marketing.html
 https://solvebytez.com/Game-development.html
