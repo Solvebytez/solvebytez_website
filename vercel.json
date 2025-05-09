@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/contact",
-      "destination": "/contact.html"
+      "destination": "contact/contact.html"
     }
   ]
 }
