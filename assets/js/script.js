@@ -861,6 +861,43 @@
             });
         });
 
+const form = document.getElementById('form');
+    const emailInput = document.getElementById('email');
+    const phoneInput = document.getElementById('phone');
+    const messageElement = document.getElementById('message');
+
+    // ✅ Strong Email Validation: Accepts full domains only
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|net|org|in|co|io|biz|info|me|us|uk|ca|au)$/i;
+
+    // ✅ Indian Phone: 10 digits starting with 6-9
+    const phonePattern = /^[6-9]\d{9}$/;
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const email = emailInput.value.trim();
+      const phone = phoneInput.value.trim();
+
+      let message = "";
+
+      const isEmailValid = emailPattern.test(email);
+      const isPhoneValid = phonePattern.test(phone);
+
+      if (!isEmailValid && !isPhoneValid) {
+        message = "❌ Invalid email and phone number.";
+      } else if (!isEmailValid) {
+        message = "❌ Invalid email address.";
+      } else if (!isPhoneValid) {
+        message = "❌ Invalid phone number.";
+      } else {
+        message = "✅ Success! Form submitted.";
+        console.log("Form submitted successfully!");
+        // Yahan form submit logic likhna chahiye (e.g., AJAX or backend call)
+      }
+
+      messageElement.textContent = message;
+    });
+
 
 
 
