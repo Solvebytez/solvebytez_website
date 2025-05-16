@@ -254,7 +254,9 @@
     <form id="contactForm" action="https://script.google.com/macros/s/AKfycbxTdENZyjBpvIOmh_JJKDsw9wGHTj6UkSEsKaT07s-ZIXimlgxcnJ3dJY19ErPo3BlO/exec" method="post" data-gtm-form-interact-id="0">
         <input type="text" id="name" name="name" class="form-controls" placeholder="Name" required data-gtm-form-interact-field-id="0">
         <input type="email" id="email" name="email" class="form-controls" placeholder="Email" required data-gtm-form-interact-field-id="1">
-        <input type="text" id="mobile" name="mobile" class="form-controls" placeholder="Mobile Number" required data-gtm-form-interact-field-id="2">
+         <input type="text" id="mobile" name="mobile" class="form-controls" placeholder="Mobile Number" required 
+       maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" 
+       data-gtm-form-interact-field-id="2">
 
         <select class="form-controls" id="service" name="service" required data-gtm-form-interact-field-id="3">
             <option value="default" selected="">Service</option>
