@@ -864,6 +864,23 @@
 
 
 
+  const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      let message = "";
+
+      const isEmailValid = emailPattern.test(email);
+      const isPhoneValid = phonePattern.test(phone);
+
+      if (!isEmailValid || !isPhoneValid) {
+        if (!isEmailValid) message += "❌ Invalid email. ";
+        if (!isPhoneValid) message += "❌ Invalid phone number.";
+        messageElement.textContent = message;
+        return; // ❌ Stop form submission
+      }
+
+
+
+
 
 
 
