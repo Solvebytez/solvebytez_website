@@ -55,8 +55,13 @@ export const metadata: Metadata = {
   publisher: siteConfig.name,
   formatDetection: { email: false, address: false, telephone: false },
   icons: {
-    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
-    apple: [{ url: '/logo-icon.png', sizes: '512x512', type: 'image/png' }],
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/logo-icon.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
   },
   alternates: { canonical: siteUrl },
   openGraph: {

@@ -272,12 +272,8 @@ export default function ContactPage() {
                           type="tel"
                           required
                           autoComplete="tel"
-                          inputMode="numeric"
-                          maxLength={10}
+                          inputMode="tel"
                           disabled={loading}
-                          onInput={(e) => {
-                            e.currentTarget.value = e.currentTarget.value.replace(/\D/g, '').slice(0, 10)
-                          }}
                           className="w-full rounded-xl border border-[#E2E8F0] bg-[#F8FAFC] px-4 py-3 text-sm outline-none focus:border-[#2563EB] focus:ring-2 focus:ring-[#2563EB]/20 disabled:opacity-60"
                           placeholder="8888xxxxxxxx"
                         />
