@@ -23,30 +23,30 @@ export default function BlogCard({
 }: BlogCardProps) {
   return (
     <Link href={href}>
-      <article className="glass-effect rounded-xl overflow-hidden card-hover group cursor-pointer h-full flex flex-col">
-        <div className="relative h-48 w-full overflow-hidden bg-muted">
+      <article className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#E2E8F0] bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-[var(--brand-blue)]/30 hover:shadow-md">
+        <div className="relative h-48 w-full overflow-hidden bg-[#F1F5F9]">
           <Image
             src={image}
             alt={title}
             fill
-            className="object-cover group-hover:scale-110 transition-transform duration-300"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
 
-        <div className="p-6 flex flex-col flex-1">
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-primary/20 text-primary">
+        <div className="flex flex-1 flex-col p-6">
+          <div className="mb-3 flex items-center gap-2">
+            <span className="rounded-full bg-[var(--brand-blue)]/10 px-2.5 py-1 text-xs font-semibold text-[var(--brand-blue)]">
               {category}
             </span>
           </div>
 
-          <h3 className="text-lg font-bold text-foreground mb-2 line-clamp-2 group-hover:text-primary transition-colors">
+          <h3 className="mb-2 line-clamp-2 font-heading text-lg font-bold text-[#0B1120] transition-colors group-hover:text-[var(--brand-blue)]">
             {title}
           </h3>
 
-          <p className="text-sm text-foreground/70 mb-4 line-clamp-3 flex-1">{excerpt}</p>
+          <p className="mb-4 line-clamp-3 flex-1 text-sm leading-relaxed text-slate-600">{excerpt}</p>
 
-          <div className="flex items-center justify-between text-xs text-foreground/60 pt-4 border-t border-white/10">
+          <div className="flex items-center justify-between border-t border-[#E2E8F0] pt-4 text-xs text-slate-500">
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-1">
                 <Calendar size={14} />
@@ -57,7 +57,7 @@ export default function BlogCard({
                 <span>{readTime} min</span>
               </div>
             </div>
-            <span className="text-primary group-hover:translate-x-1 transition-transform">→</span>
+            <span className="text-[var(--brand-blue)] transition-transform group-hover:translate-x-1">→</span>
           </div>
         </div>
       </article>

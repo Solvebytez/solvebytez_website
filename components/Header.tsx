@@ -15,14 +15,6 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [solutionsOpen, setSolutionsOpen] = useState(false)
   const [mobileSolutionsOpen, setMobileSolutionsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12)
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
 
   useEffect(() => {
     document.body.style.overflow = isOpen ? 'hidden' : ''
@@ -52,23 +44,11 @@ export default function Header() {
 
   return (
     <>
-    <header
-      className={cn(
-        'fixed top-0 z-50 w-full transition-all duration-300',
-        scrolled
-          ? 'border-b border-white/10 bg-[#0B1120]/92 shadow-[0_10px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl'
-          : 'border-b border-white/[0.08] bg-[#0B1120]/70 backdrop-blur-md'
-      )}
-    >
-      <div
-        className={cn(
-          'pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[var(--brand-blue)]/50 to-transparent transition-opacity duration-300',
-          scrolled ? 'opacity-100' : 'opacity-40'
-        )}
-      />
+    <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-[#0B1120]/92 shadow-[0_10px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl">
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[var(--brand-blue)]/50 to-transparent opacity-100" />
 
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-        <div className="flex h-16 items-center justify-between gap-4 lg:h-[4.5rem]">
+        <div className="flex h-[4.75rem] items-center justify-between gap-4 lg:h-[5.5rem]">
           <BrandLogo variant="full" theme="dark" />
 
           {/* Desktop nav */}
@@ -168,7 +148,7 @@ export default function Header() {
                 exit={{ opacity: 0 }}
                 className={cn(
                   'fixed inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden',
-                  showSecondaryNav ? 'top-[7rem] lg:top-[7.75rem]' : 'top-16 lg:top-[4.5rem]'
+                  showSecondaryNav ? 'top-[7.75rem] lg:top-[8.75rem]' : 'top-[4.75rem] lg:top-[5.5rem]'
                 )}
                 onClick={() => setIsOpen(false)}
               />
@@ -264,7 +244,7 @@ export default function Header() {
       aria-hidden
       className={cn(
         'shrink-0',
-        showSecondaryNav ? 'h-[7rem] lg:h-[7.75rem]' : 'h-16 lg:h-[4.5rem]'
+        showSecondaryNav ? 'h-[7.75rem] lg:h-[8.75rem]' : 'h-[4.75rem] lg:h-[5.5rem]'
       )}
     />
     </>

@@ -24,11 +24,11 @@ export function BrandLogo({
         <Image
           src="/solvebytez-logo.png"
           alt="Solvebytez — Where Ideas Meet Intelligent Execution"
-          width={280}
-          height={84}
+          width={340}
+          height={120}
           priority
           className={cn(
-            'h-11 w-auto max-w-[240px] object-contain object-left transition-opacity group-hover:opacity-90 sm:h-12 sm:max-w-[260px] lg:h-14 lg:max-w-[300px]',
+            'h-14 w-auto max-w-[320px] object-contain object-left transition-opacity group-hover:opacity-90 sm:h-[3.75rem] sm:max-w-[380px] lg:h-20 lg:max-w-[460px]',
             theme === 'dark' && 'brightness-0 invert',
             iconClassName
           )}

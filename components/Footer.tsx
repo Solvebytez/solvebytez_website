@@ -42,9 +42,9 @@ export default function Footer() {
                 <Image
                   src="/solvebytez-logo.png"
                   alt="Solvebytez — Where Ideas Meet Intelligent Execution"
-                  width={240}
-                  height={72}
-                  className="h-14 w-auto max-w-[240px] object-contain object-left"
+                  width={340}
+                  height={120}
+                  className="h-16 w-auto max-w-[300px] object-contain object-left sm:h-[3.75rem] sm:max-w-[380px] lg:h-20 lg:max-w-[460px]"
                 />
               </Link>
               <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-500">
@@ -106,6 +106,7 @@ export default function Footer() {
               <ul className="space-y-3 text-sm text-slate-600">
                 {[
                   { href: '/about', label: 'About Us' },
+                  { href: '/blog', label: 'Blog' },
                   { href: '/portfolio', label: 'Portfolio' },
                   { href: '/contact', label: 'Contact' },
                 ].map((item) => (

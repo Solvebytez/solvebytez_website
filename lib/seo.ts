@@ -13,6 +13,8 @@ export const sitemapRoutes: {
   { path: '/about', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/contact', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/portfolio', changeFrequency: 'weekly', priority: 0.85 },
+  { path: '/blog', changeFrequency: 'weekly', priority: 0.8 },
+  { path: '/blog/why-n8n-automation-is-essential-for-modern-businesses', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/industries', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/ai-automation', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/custom-software', changeFrequency: 'monthly', priority: 0.9 },
