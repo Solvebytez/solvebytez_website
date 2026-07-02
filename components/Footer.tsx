@@ -37,12 +37,17 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-6 lg:gap-0">
             {/* Brand */}
-            <div className="sm:col-span-2 lg:col-span-2 lg:border-r lg:border-slate-200/80 lg:pr-10">
-              <BrandLogo variant="full" theme="light" />
+            <div className="flex flex-col items-center text-center sm:col-span-2 lg:col-span-2 lg:border-r lg:border-slate-200/80 lg:pr-10">
+              <BrandLogo
+                variant="full"
+                theme="light"
+                className="w-full justify-center"
+                iconClassName="h-20 max-w-[340px] sm:h-24 sm:max-w-[380px] lg:h-24 lg:max-w-[420px]"
+              />
               <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-500">
                 Enterprise AI automation and custom software development. Transforming businesses worldwide.
               </p>
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 flex justify-center gap-3">
                 {footerSocialLinks.map(({ label, href, icon: Icon }) => (
                   <a
                     key={label}
