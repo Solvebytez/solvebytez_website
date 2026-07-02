@@ -55,7 +55,7 @@ export default function Header() {
               alt=""
               width={64}
               height={64}
-              className="size-10 shrink-0 object-contain sm:size-11"
+              className="size-11 shrink-0 object-contain sm:size-12"
               priority
             />
             <Image
