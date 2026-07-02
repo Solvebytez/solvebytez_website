@@ -39,7 +39,7 @@ export default function Header() {
       'relative rounded-xl px-3.5 py-2 text-sm font-medium transition-all duration-200',
       active
         ? 'gradient-primary font-semibold text-white shadow-brand-sm'
-        : 'text-white/65 hover:bg-white/[0.06] hover:text-white'
+        : 'text-white hover:bg-white/[0.06] hover:text-white'
     )
 
   return (
@@ -48,14 +48,14 @@ export default function Header() {
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[var(--brand-blue)]/50 to-transparent opacity-100" />
 
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-        <div className="flex h-[4.75rem] items-center justify-between gap-4 lg:h-[5.5rem]">
+        <div className="flex h-16 items-center justify-between gap-4 lg:h-[4.5rem]">
           <Link href="/" className="inline-flex items-center gap-3">
             <Image
               src="/solvebytez-icon-white.png"
               alt=""
               width={64}
               height={64}
-              className="h-12 w-12 shrink-0 object-contain sm:h-14 sm:w-14 lg:h-16 lg:w-16"
+              className="size-10 shrink-0 object-contain sm:size-11"
               priority
             />
             <Image
@@ -64,7 +64,7 @@ export default function Header() {
               width={340}
               height={84}
               priority
-              className="h-8 w-auto object-contain sm:h-9 lg:h-11"
+              className="h-7 w-auto object-contain sm:h-8 lg:h-9"
             />
           </Link>
 
@@ -108,7 +108,7 @@ export default function Header() {
                                 'group flex items-center justify-between rounded-xl px-3 py-2.5 text-sm transition-all',
                                 isActive(child.href)
                                   ? 'gradient-primary font-semibold text-white shadow-brand-sm'
-                                  : 'text-white/70 hover:bg-white/10 hover:text-white'
+                                  : 'text-white hover:bg-white/10 hover:text-white'
                               )}
                             >
                               {child.label}
@@ -165,7 +165,7 @@ export default function Header() {
                 exit={{ opacity: 0 }}
                 className={cn(
                   'fixed inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden',
-                  showSecondaryNav ? 'top-[7.75rem] lg:top-[8.75rem]' : 'top-[4.75rem] lg:top-[5.5rem]'
+                  showSecondaryNav ? 'top-[7rem] lg:top-[7.75rem]' : 'top-16 lg:top-[4.5rem]'
                 )}
                 onClick={() => setIsOpen(false)}
               />
@@ -186,7 +186,7 @@ export default function Header() {
                             'flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium',
                             isSolutionsActive
                               ? 'gradient-primary font-semibold text-white'
-                              : 'text-white/70'
+                              : 'text-white'
                           )}
                         >
                           {link.label}
@@ -212,7 +212,7 @@ export default function Header() {
                                       'block rounded-lg px-3 py-2.5 text-sm',
                                       isActive(child.href)
                                         ? 'gradient-primary font-semibold text-white'
-                                        : 'text-white/55 hover:text-white'
+                                        : 'text-white/80 hover:text-white'
                                     )}
                                   >
                                     {child.label}
@@ -232,7 +232,7 @@ export default function Header() {
                           'block rounded-xl px-4 py-3 text-sm font-medium',
                           isActive(link.href!)
                             ? 'gradient-primary font-semibold text-white'
-                            : 'text-white/70 hover:text-white'
+                            : 'text-white hover:text-white'
                         )}
                         aria-current={isActive(link.href!) ? 'page' : undefined}
                       >
@@ -261,7 +261,7 @@ export default function Header() {
       aria-hidden
       className={cn(
         'shrink-0',
-        showSecondaryNav ? 'h-[7.75rem] lg:h-[8.75rem]' : 'h-[4.75rem] lg:h-[5.5rem]'
+        showSecondaryNav ? 'h-[7rem] lg:h-[7.75rem]' : 'h-16 lg:h-[4.5rem]'
       )}
     />
     </>
