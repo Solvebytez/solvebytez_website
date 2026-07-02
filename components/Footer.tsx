@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Mail, Phone, MapPin } from 'lucide-react'
+import { BrandLogo } from '@/components/BrandLogo'
 import { siteConfig } from '@/lib/data'
 import {
   InstagramIcon,
@@ -38,15 +38,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-6 lg:gap-0">
             {/* Brand */}
             <div className="sm:col-span-2 lg:col-span-2 lg:border-r lg:border-slate-200/80 lg:pr-10">
-              <Link href="/" className="inline-block">
-                <Image
-                  src="/solvebytez-logo.png"
-                  alt="Solvebytez — Where Ideas Meet Intelligent Execution"
-                  width={340}
-                  height={120}
-                  className="h-16 w-auto max-w-[300px] object-contain object-left sm:h-[3.75rem] sm:max-w-[380px] lg:h-20 lg:max-w-[460px]"
-                />
-              </Link>
+              <BrandLogo variant="full" theme="light" />
               <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-500">
                 Enterprise AI automation and custom software development. Transforming businesses worldwide.
               </p>

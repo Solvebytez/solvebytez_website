@@ -11,6 +11,9 @@ interface BrandLogoProps {
   iconClassName?: string
 }
 
+const fullLogoSizes =
+  'h-14 w-auto max-w-[320px] object-contain object-left transition-opacity group-hover:opacity-90 sm:h-[3.75rem] sm:max-w-[380px] lg:h-20 lg:max-w-[460px]'
+
 export function BrandLogo({
   variant = 'icon',
   theme = 'light',
@@ -19,19 +22,17 @@ export function BrandLogo({
   iconClassName,
 }: BrandLogoProps) {
   if (variant === 'full') {
+    const logoSrc = theme === 'dark' ? '/solvebytez-logo-white.png' : '/solvebytez-logo.png'
+
     return (
       <Link href="/" className={cn('group inline-flex shrink-0 items-center', className)}>
         <Image
-          src="/solvebytez-logo.png"
-          alt="Solvebytez — Where Ideas Meet Intelligent Execution"
+          src={logoSrc}
+          alt="Solvebytez"
           width={340}
-          height={120}
+          height={84}
           priority
-          className={cn(
-            'h-14 w-auto max-w-[320px] object-contain object-left transition-opacity group-hover:opacity-90 sm:h-[3.75rem] sm:max-w-[380px] lg:h-20 lg:max-w-[460px]',
-            theme === 'dark' && 'brightness-0 invert',
-            iconClassName
-          )}
+          className={cn(fullLogoSizes, iconClassName)}
         />
       </Link>
     )
