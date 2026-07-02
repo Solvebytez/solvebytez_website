@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react'
 import { navLinks, isSolutionPage } from '@/lib/data'
 import { cn } from '@/lib/utils'
-import { BrandLogo } from '@/components/BrandLogo'
 import { SecondaryNav } from '@/components/SecondaryNav'
 
 export default function Header() {
@@ -49,7 +49,24 @@ export default function Header() {
 
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex h-[4.75rem] items-center justify-between gap-4 lg:h-[5.5rem]">
-          <BrandLogo variant="full" theme="dark" />
+          <Link href="/" className="inline-flex items-center gap-3">
+            <Image
+              src="/solvebytez-icon-white.png"
+              alt=""
+              width={64}
+              height={64}
+              className="h-12 w-12 shrink-0 object-contain sm:h-14 sm:w-14 lg:h-16 lg:w-16"
+              priority
+            />
+            <Image
+              src="/solvebytez-wordmark-white.png"
+              alt="Solvebytez"
+              width={340}
+              height={84}
+              priority
+              className="h-8 w-auto object-contain sm:h-9 lg:h-11"
+            />
+          </Link>
 
           {/* Desktop nav */}
           <div className="hidden items-center gap-0.5 rounded-2xl border border-white/[0.06] bg-white/[0.03] p-1 lg:flex">
