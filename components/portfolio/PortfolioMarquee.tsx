@@ -19,6 +19,7 @@ const categoryAccent: Record<PortfolioProject['category'], string> = {
   Engineering: '#6366F1',
   Retail: '#EAB308',
   'Mobile Apps': '#14B8A6',
+  Games: '#F97316',
 }
 
 function getInitials(name: string) {

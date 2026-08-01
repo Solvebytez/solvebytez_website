@@ -9,6 +9,7 @@ export type PortfolioCategory =
   | 'Engineering'
   | 'Retail'
   | 'Mobile Apps'
+  | 'Games'
 
 export interface PortfolioProject {
   id: string
@@ -52,6 +53,7 @@ export const portfolioCategories: PortfolioCategory[] = [
   'Engineering',
   'Retail',
   'Mobile Apps',
+  'Games',
 ]
 
 export const portfolioProjects: PortfolioProject[] = [
@@ -507,13 +509,28 @@ export const portfolioProjects: PortfolioProject[] = [
     category: 'E-Commerce',
     region: 'International',
   },
+  {
+    id: '58',
+    name: 'Spinifywheel',
+    url: 'https://www.spinifywheel.com/',
+    domain: 'spinifywheel.com',
+    category: 'Games',
+    featured: true,
+    region: 'International',
+  },
 ]
 
 export const featuredProjects = portfolioProjects.filter((p) => p.featured)
 
 export const homepagePortfolioProjects = (() => {
-  // Home page: user-specified top 4, then fill remaining slots without duplicates.
-  const pinnedDomains = ['sahilcnc.com', 'ashvaksheik.com', 'servdyou.com', 'blanqcanvas.co.uk'] as const
+  // Home page: user-specified pins, then fill remaining slots without duplicates.
+  const pinnedDomains = [
+    'spinifywheel.com',
+    'sahilcnc.com',
+    'ashvaksheik.com',
+    'servdyou.com',
+    'blanqcanvas.co.uk',
+  ] as const
   const pinned = pinnedDomains
     .map((domain) => portfolioProjects.find((p) => p.domain === domain))
     .filter(Boolean)

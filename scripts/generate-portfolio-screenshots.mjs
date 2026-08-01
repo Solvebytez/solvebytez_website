@@ -68,6 +68,7 @@ const projects = [
   { id: '55', slug: 'sellshopee-com', url: 'https://www.sellshopee.com/' },
   { id: '56', slug: 'eliquidsamples-co-uk', url: 'https://www.eliquidsamples.co.uk/' },
   { id: '57', slug: 'maisondelgusto-com', url: 'https://www.maisondelgusto.com/' },
+  { id: '58', slug: 'spinifywheel-com', url: 'https://www.spinifywheel.com/' },
 ]
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))

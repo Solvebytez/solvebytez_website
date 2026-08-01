@@ -44,6 +44,7 @@ const categoryIcons: Record<Exclude<PortfolioCategory, 'All'>, LucideIcon> = {
   Engineering: Wrench,
   Retail: Store,
   'Mobile Apps': Smartphone,
+  Games: Sparkles,
 }
 
 const categoryColors: Record<Exclude<PortfolioCategory, 'All'>, string> = {
@@ -56,6 +57,7 @@ const categoryColors: Record<Exclude<PortfolioCategory, 'All'>, string> = {
   Engineering: '#6366F1',
   Retail: '#EAB308',
   'Mobile Apps': '#14B8A6',
+  Games: '#F97316',
 }
 
 function getInitials(name: string) {
