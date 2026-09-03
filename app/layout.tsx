@@ -1,3 +1,10 @@
+<head>
+  <meta
+    name="google-site-verification"
+    content="6P5PSMAF6pRQ2Jz-upw7bTbLBiYIyeiXeli3EpMcUKc"
+  />
+</head>
+
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Inter, Sora } from 'next/font/google'
