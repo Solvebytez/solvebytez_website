@@ -3,11 +3,23 @@ import { ServicePageLayout } from '@/components/ServicePageLayout'
 import { createPageMetadata } from '@/lib/seo'
 
 export const metadata = createPageMetadata({
-  title: 'AI Automation Solutions',
+  title: 'AI Automation Services | Business Process Automation',
   description:
-    'End-to-end AI automation for businesses. Intelligent workflows, chatbots, voice agents, and process automation that eliminate manual work.',
+    'AI automation services for businesses to automate workflows, chatbots, voice agents and repetitive processes while improving efficiency and reducing manual work.',
   path: '/ai-automation',
-  keywords: ['AI automation', 'business process automation', 'AI chatbot', 'workflow automation', 'voice agents'],
+  keywords: [
+    'AI automation services',
+    'AI automation',
+    'AI business automation',
+    'business process automation',
+    'AI workflow automation',
+    'workflow automation services',
+    'AI chatbot development',
+    'AI voice agents',
+    'intelligent automation',
+    'AI automation solutions',
+    'enterprise AI automation',
+  ],
 })
 
 export default function AIAutomationPage() {
@@ -15,33 +27,90 @@ export default function AIAutomationPage() {
     <ServicePageLayout
       path="/ai-automation"
       badge="AI Automation"
-      title="Intelligent Automation for Modern Business"
-      subtitle="Let AI handle the repetitive. You focus on growth."
-      description="We design and deploy AI-powered automation systems that transform how your business operates — from intelligent chatbots and voice agents to complex workflow orchestration across your entire tech stack."
+      title="AI Automation Services for Modern Businesses"
+      subtitle="Let AI handle repetitive work while your team focuses on growth."
+      description="We provide AI automation services that help businesses automate repetitive processes, intelligent workflows, customer conversations, document processing, and business operations. Our AI automation solutions can connect with your existing CRM, ERP, communication platforms, and business tools to create efficient, scalable workflows."
       icon={Bot}
       workflow={{
         title: 'AI Automation Workflow',
-        subtitle: 'From discovery to production — with measurable impact and safe rollouts.',
+        subtitle:
+          'From business process discovery to production deployment, we build measurable and reliable automation systems.',
         steps: [
-          { title: 'Discovery & Process Mapping', description: 'We map your current workflows, identify bottlenecks, and shortlist high-ROI automation candidates.' },
-          { title: 'Automation Blueprint', description: 'Define data sources, integrations, security, success metrics, and the exact agent/workflow behavior.' },
-          { title: 'Prototype & Validation', description: 'Build a quick pilot in a controlled environment to validate accuracy, UX, and business rules.' },
-          { title: 'Build & Integrate', description: 'Implement automations, connect CRM/ERP/tools, add approvals, logging, and monitoring.' },
-          { title: 'Testing & Guardrails', description: 'Test edge cases, permissions, fallbacks, and ensure safe operation with human-in-the-loop where needed.' },
-          { title: 'Go-Live & Optimization', description: 'Roll out gradually, measure ROI, and continuously improve performance and coverage.' },
+          {
+            title: 'Discovery & Process Mapping',
+            description:
+              'We analyze your existing business processes, identify repetitive tasks and bottlenecks, and prioritize automation opportunities based on business impact.',
+          },
+          {
+            title: 'AI Automation Strategy',
+            description:
+              'We define the automation architecture, AI capabilities, integrations, security requirements, business rules, and success metrics.',
+          },
+          {
+            title: 'Prototype & Validation',
+            description:
+              'We build a controlled AI automation prototype to validate accuracy, workflow behavior, user experience, and business requirements before full implementation.',
+          },
+          {
+            title: 'Build & Integrate',
+            description:
+              'We develop and integrate AI workflows with CRM, ERP, APIs, databases, communication tools, and other business systems.',
+          },
+          {
+            title: 'Testing & Guardrails',
+            description:
+              'We test workflows, permissions, edge cases, fallback scenarios, monitoring, and human approval points to ensure reliable operation.',
+          },
+          {
+            title: 'Go-Live & Optimization',
+            description:
+              'We deploy the automation gradually, monitor performance, measure business results, and continuously optimize the workflows.',
+          },
         ],
       }}
       advantages={[
-        { title: 'Massive Time Savings', description: 'Automate repetitive tasks so teams can focus on revenue and strategy.' },
-        { title: '24/7 Operations', description: 'Agents and workflows run continuously without fatigue.' },
-        { title: 'Fewer Errors', description: 'Consistent execution reduces manual mistakes and rework.' },
-        { title: 'Scales With Demand', description: 'Handle spikes in volume without hiring proportional headcount.' },
+        {
+          title: 'Reduce Manual Work',
+          description:
+            'Automate repetitive tasks so your team can spend more time on revenue, customers, and strategic work.',
+        },
+        {
+          title: '24/7 AI Operations',
+          description:
+            'AI-powered agents and automated workflows can operate continuously without manual intervention.',
+        },
+        {
+          title: 'Improve Accuracy',
+          description:
+            'Standardized automated workflows can reduce repetitive manual errors and improve process consistency.',
+        },
+        {
+          title: 'Scale Operations',
+          description:
+            'Handle increasing business volume without requiring proportional growth in manual operational effort.',
+        },
       ]}
       disadvantages={[
-        { title: 'Requires Clean Inputs', description: 'Automation quality depends on data quality and well-defined business rules.' },
-        { title: 'Change Management Needed', description: 'Teams may need training and updated SOPs to adopt new automated flows.' },
-        { title: 'Ongoing Maintenance', description: 'APIs, tools, and processes change — workflows need monitoring and updates.' },
-        { title: 'Edge Cases Exist', description: 'Rare scenarios can require human review or additional guardrails.' },
+        {
+          title: 'Requires Quality Data',
+          description:
+            'AI automation performs best when business data is accurate, structured, and accessible.',
+        },
+        {
+          title: 'Business Process Changes',
+          description:
+            'Teams may need updated processes, SOPs, and training when automated workflows are introduced.',
+        },
+        {
+          title: 'Ongoing Maintenance',
+          description:
+            'APIs, software platforms, business rules, and AI models can change and may require periodic updates.',
+        },
+        {
+          title: 'Human Review May Be Needed',
+          description:
+            'Important or unusual decisions may require human approval and appropriate automation guardrails.',
+        },
       ]}
       features={[
         'AI Chatbot & Conversational Agents',
@@ -55,12 +124,36 @@ export default function AIAutomationPage() {
         'Custom ML Model Development',
       ]}
       benefits={[
-        { title: '70% Time Savings', description: 'Automate repetitive tasks and free your team for high-value work.' },
-        { title: '24/7 Operations', description: 'AI agents work around the clock without breaks or errors.' },
-        { title: 'Scalable Intelligence', description: 'Handle 10x volume without proportional headcount increase.' },
-        { title: 'Data-Driven Decisions', description: 'Real-time insights powered by machine learning algorithms.' },
-        { title: 'Seamless Integration', description: 'Connect with your existing CRM, ERP, and business tools.' },
-        { title: 'Rapid ROI', description: 'Most clients see positive ROI within the first 90 days.' },
+        {
+          title: 'Save Operational Time',
+          description:
+            'Automate repetitive business tasks and allow employees to focus on higher-value activities.',
+        },
+        {
+          title: '24/7 Business Automation',
+          description:
+            'AI agents and automated workflows can support customers and internal processes around the clock.',
+        },
+        {
+          title: 'Scalable Automation',
+          description:
+            'Design workflows that can handle growing transaction and operational volumes efficiently.',
+        },
+        {
+          title: 'Data-Driven Decisions',
+          description:
+            'Use AI and automation to process business information and provide actionable insights.',
+        },
+        {
+          title: 'CRM & ERP Integration',
+          description:
+            'Connect AI workflows with your existing CRM, ERP, APIs, databases, and business applications.',
+        },
+        {
+          title: 'Faster Business ROI',
+          description:
+            'Prioritize high-impact automation opportunities and measure the results of implemented workflows.',
+        },
       ]}
     />
   )
