@@ -43,12 +43,12 @@ export default function WhatsAppAutomationPage() {
           {
             title: 'Use-Case & Conversation Design',
             description:
-              'Define customer journeys, intents, FAQs, lead flows, escalation rules, and business goals.',
+              'Define customer journeys, intents, FAQs, lead flows, escalation rules, and business goals for sales and support.',
           },
           {
             title: 'WhatsApp Business API Setup',
             description:
-              'Configure WhatsApp Business API, business numbers, message templates, and required integrations.',
+              'Configure WhatsApp Business API, business numbers, message templates, authentication, and required platform settings.',
           },
           {
             title: 'Chatbot & Automation Development',
@@ -58,7 +58,7 @@ export default function WhatsAppAutomationPage() {
           {
             title: 'CRM, ERP & System Integration',
             description:
-              'Connect WhatsApp with CRM, ERP, order management, payments, ticketing, databases, and analytics platforms.',
+              'Connect WhatsApp with CRM, ERP, order management, payments, ticketing systems, databases, and analytics platforms.',
           },
           {
             title: 'Testing & Quality Assurance',
@@ -68,7 +68,7 @@ export default function WhatsAppAutomationPage() {
           {
             title: 'Deployment & Optimization',
             description:
-              'Launch the automation, monitor conversations, measure KPIs, and continuously improve customer experience.',
+              'Launch the automation, monitor conversations, measure KPIs, improve chatbot responses, and optimize business workflows.',
           },
         ],
       }}
@@ -89,7 +89,7 @@ export default function WhatsAppAutomationPage() {
             'Provide consistent 24/7 support, notifications, order updates, and personalized customer interactions.',
         },
         {
-          title: 'Business Tool Integration',
+          title: 'Connected Business Operations',
           description:
             'Connect WhatsApp with CRM, ERP, payment systems, order management, and other business applications.',
         },
@@ -171,7 +171,7 @@ export default function WhatsAppAutomationPage() {
         },
       ]}
     >
-      {/* Internal Linking */}
+      {/* Internal Linking Section */}
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
@@ -185,7 +185,7 @@ export default function WhatsAppAutomationPage() {
 
             <p className="mt-4 text-lg text-muted-foreground">
               WhatsApp automation becomes more powerful when connected with
-              your CRM, ERP, AI automation, and other business workflows.
+              your CRM, ERP, AI automation, and workflow automation systems.
             </p>
           </div>
 
@@ -197,10 +197,12 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 AI Automation Services
               </h3>
+
               <p className="mt-2 text-muted-foreground">
-                Build intelligent AI-powered workflows, chatbots, agents, and
-                business process automation.
+                Build AI-powered chatbots, intelligent workflows, AI agents,
+                and business process automation solutions.
               </p>
+
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
                 Explore AI Automation
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
@@ -214,10 +216,12 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 CRM Development
               </h3>
+
               <p className="mt-2 text-muted-foreground">
-                Connect WhatsApp leads, conversations, sales activities, and
-                customer data with a custom CRM.
+                Connect WhatsApp leads, conversations, customer data, and
+                sales activities with a custom CRM solution.
               </p>
+
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
                 Explore CRM Development
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
@@ -231,10 +235,12 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 ERP Solutions
               </h3>
+
               <p className="mt-2 text-muted-foreground">
-                Integrate WhatsApp notifications and customer workflows with
-                your business ERP and operational systems.
+                Integrate WhatsApp notifications, customer workflows, orders,
+                and business operations with your ERP system.
               </p>
+
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
                 Explore ERP Solutions
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
@@ -248,10 +254,12 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 n8n Automation Services
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 Connect WhatsApp with CRM, ERP, APIs, databases, and other
                 applications using automated n8n workflows.
               </p>
+
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
                 Explore n8n Automation
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
@@ -284,6 +292,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 What are WhatsApp automation services?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 WhatsApp automation services help businesses automate customer
                 conversations, lead capture, follow-ups, notifications,
@@ -296,6 +305,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 What is WhatsApp Business automation?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 WhatsApp Business automation uses automated workflows,
                 chatbots, APIs, and integrations to manage customer
@@ -308,6 +318,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 Can you develop an AI WhatsApp chatbot?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 Yes. We can build AI WhatsApp chatbots that understand
                 customer questions, provide automated responses, collect
@@ -320,6 +331,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 Can WhatsApp automation integrate with CRM and ERP systems?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 Yes. WhatsApp can be integrated with CRM, ERP, order
                 management, payment, ticketing, databases, and other business
@@ -331,6 +343,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 Do you provide WhatsApp Business API integration?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 Yes. We provide WhatsApp Business API integration for
                 automated customer communication, notifications, chatbots,
@@ -343,6 +356,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 Can WhatsApp automation be used for lead generation?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 Yes. WhatsApp automation can capture leads, ask qualifying
                 questions, send follow-ups, route prospects to sales teams,
@@ -354,6 +368,7 @@ export default function WhatsAppAutomationPage() {
               <h3 className="text-xl font-semibold">
                 How much do WhatsApp automation services cost?
               </h3>
+
               <p className="mt-2 text-muted-foreground">
                 The cost depends on the chatbot complexity, WhatsApp API
                 setup, number of integrations, automation workflows, CRM or
