@@ -77,7 +77,7 @@ export default function N8nAutomationPage() {
         {
           title: 'Full Control',
           description:
-            'Self-hosted n8n deployments can keep your automation infrastructure and data under your organization’s control.',
+            'Self-hosted automations can keep your automation infrastructure and data under your organization’s control.',
         },
         {
           title: 'Flexible Workflow Automation',
@@ -186,8 +186,8 @@ export default function N8nAutomationPage() {
 
             <p className="mt-4 text-muted-foreground">
               n8n workflow automation can connect your business software,
-              customer systems, AI tools, and marketing workflows. Explore our
-              related services to create a complete digital automation
+              customer systems, AI tools, and communication workflows. Explore
+              our related services to create a complete digital automation
               ecosystem.
             </p>
           </div>
@@ -316,7 +316,7 @@ export default function N8nAutomationPage() {
                 systems so that business processes can run automatically based
                 on events, schedules, webhooks, or defined conditions. It can
                 be used for data synchronization, notifications, lead
-                processing, reporting, and many other workflows.
+                processing, reporting, and other workflows.
               </p>
             </div>
 
@@ -366,10 +366,10 @@ export default function N8nAutomationPage() {
               </h3>
 
               <p className="mt-3 text-muted-foreground">
-                Yes. Existing automation workflows can be reviewed and,
-                where technically suitable, rebuilt in n8n. During migration,
+                Yes. Existing automation workflows can be reviewed and, where
+                technically suitable, rebuilt in n8n. During migration,
                 workflows can also be redesigned to take advantage of custom
-                APIs, webhooks, databases, and more flexible automation logic.
+                APIs, webhooks, databases, and flexible automation logic.
               </p>
             </div>
 
@@ -380,8 +380,8 @@ export default function N8nAutomationPage() {
 
               <p className="mt-3 text-muted-foreground">
                 The cost depends on workflow complexity, number of
-                integrations, hosting requirements, custom API development,
-                AI integrations, monitoring, and ongoing maintenance. A
+                integrations, hosting requirements, custom API development, AI
+                integrations, monitoring, and ongoing maintenance. A
                 project-specific estimate can be prepared after reviewing your
                 automation requirements.
               </p>
