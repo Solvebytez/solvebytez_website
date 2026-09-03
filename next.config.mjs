@@ -35,6 +35,22 @@ const nextConfig = {
         permanent: true,
       },
       {
+  source: '/Vr.html',
+  destination: '/mobile-apps',
+  permanent: true,
+},
+{
+  source: '/Game-development.html',
+  destination: '/mobile-apps',
+  permanent: true,
+},
+{
+  source: '/about-us.html',
+  destination: '/about',
+  permanent: true,
+},
+      
+      {
         source: '/Digital Marketing.html',
         destination: '/digital-marketing',
         permanent: true,
