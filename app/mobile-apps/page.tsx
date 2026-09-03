@@ -32,14 +32,14 @@ export default function MobileAppsPage() {
     <ServicePageLayout
       path="/mobile-apps"
       badge="Mobile App Development"
-      title="Mobile App Development Company for iOS, Android & Immersive Experiences"
-      subtitle="Build powerful mobile apps, AR/VR experiences, and games for your business."
-      description="Solvebytez is a mobile app development company building custom iOS and Android applications, cross-platform mobile apps, AR/VR experiences, and games. We combine modern mobile technology, intuitive UX, reliable performance, and scalable architecture to create digital products around your business goals."
+      title="Mobile App Development Company for iOS, Android & AR/VR"
+      subtitle="Build powerful mobile apps, immersive AR/VR experiences, and engaging games."
+      description="Solvebytez is a mobile app development company that builds custom iOS and Android applications, cross-platform mobile apps, AR/VR experiences, and games. We combine modern technology, intuitive UX, reliable performance, and scalable architecture to create mobile products around your business goals."
       icon={Smartphone}
       workflow={{
         title: 'Mobile App Development Workflow',
         subtitle:
-          'From product strategy and UI/UX to development, testing, app store launch, and ongoing optimization.',
+          'From product strategy and UI/UX design to development, testing, app store launch, and ongoing optimization.',
         steps: [
           {
             title: 'Discovery & Product Strategy',
@@ -59,7 +59,7 @@ export default function MobileAppsPage() {
           {
             title: 'Mobile App Development',
             description:
-              'Our development team builds secure, scalable, and high-performance mobile applications with clean architecture and API integrations.',
+              'Our development team builds secure, scalable, and high-performance mobile applications with clean architecture and reliable API integrations.',
           },
           {
             title: 'QA & Device Testing',
@@ -69,7 +69,7 @@ export default function MobileAppsPage() {
           {
             title: 'Launch & Optimization',
             description:
-              'We support App Store and Play Store submission, analytics, performance monitoring, updates, and post-launch improvements.',
+              'We support App Store and Google Play Store submission, analytics, performance monitoring, updates, and post-launch improvements.',
           },
         ],
       }}
@@ -155,7 +155,7 @@ export default function MobileAppsPage() {
         {
           title: 'AR & VR Experiences',
           description:
-            'Use immersive technologies for product visualization, training, engagement, simulations, and interactive experiences.',
+            'Use immersive technologies for product visualization, training, simulations, engagement, and interactive experiences.',
         },
         {
           title: 'Post-Launch Support',
@@ -169,21 +169,20 @@ export default function MobileAppsPage() {
       {/* Internal Links */}
       <section className="section-light py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl">
-            <div className="text-center">
-              <span className="text-sm font-semibold uppercase tracking-widest text-[#2563EB]">
-                Business Solutions
-              </span>
+          <div className="mx-auto max-w-4xl text-center">
+            <span className="text-sm font-semibold uppercase tracking-widest text-[#2563EB]">
+              Business Technology Solutions
+            </span>
 
-              <h2 className="mt-3 font-heading text-3xl font-bold text-[#0B1120] md:text-4xl">
-                Connect Your Mobile App With Your Business
-              </h2>
+            <h2 className="mt-3 font-heading text-3xl font-bold text-[#0B1120] md:text-4xl">
+              Connect Your Mobile App With Your Business
+            </h2>
 
-              <p className="mt-4 text-[#64748B]">
-                Mobile applications become more powerful when connected with
-                automation, custom software, CRM, and digital marketing systems.
-              </p>
-            </div>
+            <p className="mt-4 text-[#64748B]">
+              Connect your mobile application with AI automation, custom
+              software, CRM, and digital marketing solutions to create a
+              complete digital ecosystem for your business.
+            </p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Link
@@ -222,7 +221,7 @@ export default function MobileAppsPage() {
                 href="/contact"
                 className="inline-flex items-center gap-2 rounded-xl border border-[#E2E8F0] bg-white px-5 py-3 text-sm font-semibold text-[#0B1120] transition hover:border-[#2563EB] hover:text-[#2563EB]"
               >
-                Talk to Our Team
+                Contact Our Team
                 <ArrowRight className="size-4" />
               </Link>
             </div>
@@ -244,7 +243,7 @@ export default function MobileAppsPage() {
 
             <p className="mt-4 text-[#64748B]">
               Common questions about mobile app development, iOS, Android,
-              cross-platform applications, AR/VR, and game development.
+              React Native, AR/VR, and mobile game development.
             </p>
           </div>
 
@@ -255,10 +254,9 @@ export default function MobileAppsPage() {
               </h3>
               <p className="mt-3 leading-relaxed text-[#64748B]">
                 A mobile app development company designs, develops, tests, and
-                launches mobile applications for platforms such as iOS and
-                Android. Development can include custom business applications,
-                customer-facing apps, integrations, analytics, and post-launch
-                support.
+                launches applications for platforms such as iOS and Android.
+                Services can include custom business apps, customer-facing
+                applications, integrations, analytics, and post-launch support.
               </p>
             </div>
 
@@ -268,8 +266,8 @@ export default function MobileAppsPage() {
               </h3>
               <p className="mt-3 leading-relaxed text-[#64748B]">
                 Yes. We develop custom iOS and Android applications and can
-                recommend native or cross-platform development depending on the
-                application's requirements, users, performance needs, and budget.
+                recommend native or cross-platform development depending on
+                project requirements, performance needs, users, and budget.
               </p>
             </div>
 
@@ -278,10 +276,9 @@ export default function MobileAppsPage() {
                 Do you provide React Native app development?
               </h3>
               <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. React Native can be used for cross-platform mobile
-                applications where sharing development across iOS and Android
-                provides an appropriate balance of performance, development
-                speed, and maintainability.
+                Yes. React Native can be used to develop cross-platform mobile
+                applications for iOS and Android when shared development is
+                appropriate for the project's requirements.
               </p>
             </div>
 
@@ -301,7 +298,7 @@ export default function MobileAppsPage() {
                 Do you provide mobile game development?
               </h3>
               <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. Our mobile development capabilities include 2D and 3D game
+                Yes. Our capabilities include 2D and 3D mobile game
                 development, Unity and Unreal Engine experiences, gamification,
                 multiplayer functionality, and mobile game integrations.
               </p>
@@ -309,13 +306,13 @@ export default function MobileAppsPage() {
 
             <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
               <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                Can a custom mobile app integrate with CRM and business software?
+                Can a custom mobile app integrate with CRM and ERP systems?
               </h3>
               <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. Depending on available APIs and system requirements, mobile
-                applications can integrate with CRM, ERP, databases, payment
-                systems, communication platforms, analytics tools, and other
-                business applications.
+                Yes. Depending on API availability and system requirements,
+                mobile applications can integrate with CRM, ERP, databases,
+                payment systems, communication platforms, analytics tools, and
+                other business applications.
               </p>
             </div>
           </div>
