@@ -44,7 +44,7 @@ export default function N8nAutomationPage() {
           {
             title: 'Use-Case Discovery',
             description:
-              'Identify repetitive business processes, define triggers and outcomes, map the systems involved, and prioritize workflows based on business impact.',
+              'Identify repetitive business processes, define triggers and outcomes, map the systems involved, and prioritize workflows based on business requirements.',
           },
           {
             title: 'Architecture & Hosting',
