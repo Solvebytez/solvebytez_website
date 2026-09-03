@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Smartphone, ArrowRight } from 'lucide-react'
+import { ArrowRight, Smartphone } from 'lucide-react'
+
 import { ServicePageLayout } from '@/components/ServicePageLayout'
 import { MobileImmersiveSection } from '@/components/MobileImmersiveSection'
 import { createPageMetadata } from '@/lib/seo'
@@ -33,288 +34,382 @@ export default function MobileAppsPage() {
       path="/mobile-apps"
       badge="Mobile App Development"
       title="Mobile App Development Company for iOS, Android & AR/VR"
-      subtitle="Build powerful mobile apps, immersive AR/VR experiences, and engaging games."
-      description="Solvebytez is a mobile app development company that builds custom iOS and Android applications, cross-platform mobile apps, AR/VR experiences, and games. We combine modern technology, intuitive UX, reliable performance, and scalable architecture to create mobile products around your business goals."
+      subtitle="Custom mobile apps, immersive AR/VR experiences, and engaging games built for modern businesses."
+      description="We are a mobile app development company building custom iOS and Android applications, React Native solutions, AR/VR experiences, and mobile games. From product strategy and UI/UX to development, testing, deployment, and post-launch support, we build reliable digital experiences tailored to your business goals."
       icon={Smartphone}
       workflow={{
         title: 'Mobile App Development Workflow',
         subtitle:
-          'From product strategy and UI/UX design to development, testing, app store launch, and ongoing optimization.',
+          'From product discovery to app store launch, we follow a structured process focused on performance, usability, scalability, and reliable releases.',
         steps: [
           {
-            title: 'Discovery & Product Strategy',
+            title: 'Discovery & Requirements',
             description:
-              'We understand your business goals, target users, core features, platform requirements, integrations, and success metrics.',
+              'Understand your business objectives, target users, app requirements, core features, integrations, and technical expectations.',
           },
           {
             title: 'UI/UX Design & Prototyping',
             description:
-              'We create user flows, wireframes, interactive prototypes, and mobile-first interfaces designed for intuitive user experiences.',
+              'Create intuitive user journeys, wireframes, interactive prototypes, and a consistent design system for your mobile application.',
           },
           {
-            title: 'Technology & Architecture',
+            title: 'Architecture & Technology Planning',
             description:
-              'We select the right technology stack for your application, including native iOS, Android, React Native, Unity, or other suitable technologies.',
+              'Select the right technology stack and architecture based on your platform requirements, scalability, integrations, and product roadmap.',
           },
           {
             title: 'Mobile App Development',
             description:
-              'Our development team builds secure, scalable, and high-performance mobile applications with clean architecture and reliable API integrations.',
+              'Develop high-quality iOS, Android, or cross-platform applications with secure APIs, integrations, responsive interfaces, and scalable backend systems.',
           },
           {
-            title: 'QA & Device Testing',
+            title: 'Testing & Device Optimization',
             description:
-              'We test functionality, performance, security, responsiveness, and compatibility across supported devices and operating systems.',
+              'Test application functionality, performance, security, compatibility, and user experience across relevant devices and operating systems.',
           },
           {
-            title: 'Launch & Optimization',
+            title: 'App Store Launch & Support',
             description:
-              'We support App Store and Google Play Store submission, analytics, performance monitoring, updates, and post-launch improvements.',
+              'Handle deployment, App Store and Play Store submission support, analytics setup, monitoring, updates, and ongoing improvements.',
           },
         ],
       }}
       advantages={[
         {
-          title: 'Custom Mobile Experiences',
+          title: 'Custom Mobile Solutions',
           description:
-            'Build applications around your specific business workflows instead of adapting your business to generic software.',
+            'Build applications around your specific business processes, users, workflows, and product requirements instead of relying on generic templates.',
         },
         {
-          title: 'iOS & Android Development',
+          title: 'iOS & Android Expertise',
           description:
-            'Reach customers across major mobile platforms with native or cross-platform application development.',
+            'Develop mobile applications for iOS and Android with technology choices aligned to your product goals and target audience.',
         },
         {
-          title: 'Immersive AR & VR Solutions',
+          title: 'Cross-Platform Development',
           description:
-            'Create interactive AR and VR experiences for product visualization, training, engagement, and other business use cases.',
+            'Use technologies such as React Native when appropriate to efficiently deliver applications across multiple platforms.',
         },
         {
-          title: 'Scalable Architecture',
+          title: 'Immersive Experiences',
           description:
-            'Design mobile applications that can support growing users, data, features, integrations, and business requirements.',
+            'Extend your mobile product with AR, VR, 3D, gamification, and interactive experiences when they provide meaningful business value.',
         },
       ]}
       disadvantages={[
         {
           title: 'Platform Complexity',
           description:
-            'Supporting multiple platforms and devices can increase development and testing requirements.',
+            'Supporting multiple operating systems and device types can increase development, testing, and maintenance requirements.',
+        },
+        {
+          title: 'Device Compatibility',
+          description:
+            'Mobile applications require testing across different screen sizes, operating system versions, hardware capabilities, and device configurations.',
+        },
+        {
+          title: 'AR/VR Development Complexity',
+          description:
+            'AR and VR applications can require additional 3D assets, performance optimization, specialized testing, and compatible hardware.',
         },
         {
           title: 'Ongoing Maintenance',
           description:
-            'Operating system updates, device changes, security updates, and new features require continued maintenance.',
-        },
-        {
-          title: 'AR/VR Requires Specialized Testing',
-          description:
-            'Immersive applications require additional device testing, interaction design, and performance optimization.',
-        },
-        {
-          title: 'App Store Guidelines',
-          description:
-            'Mobile applications must follow platform-specific submission, privacy, security, and review requirements.',
+            'Mobile applications require regular updates for operating system changes, security improvements, new features, and platform policies.',
         },
       ]}
       features={[
         'iOS App Development',
         'Android App Development',
-        'React Native Cross-Platform Apps',
-        'Custom Mobile Application Development',
+        'React Native App Development',
+        'Cross-Platform Mobile App Development',
+        'Custom Mobile App Development',
+        'Mobile Application UI/UX Design',
         'AR — ARKit, ARCore & WebAR',
         'VR — Meta Quest, Pico & Unity/Unreal',
+        'AR & VR Application Development',
         '2D & 3D Mobile Game Development',
-        'Unity & Unreal Engine Development',
-        'API & Third-Party Integrations',
+        'Unity & Unreal Engine Experiences',
+        'Gamification & Loyalty Mechanics',
+        '3D Modeling & Environment Design',
+        'Multiplayer & Real-Time Sync',
+        'REST API & Third-Party Integrations',
         'Push Notifications & Deep Linking',
-        'In-App Purchases & Subscription Integration',
-        'App Store & Google Play Store Optimization',
+        'In-App Purchases & Payment Integration',
+        'Analytics & App Performance Monitoring',
+        'App Store & Google Play Deployment',
+        'App Store Optimization Support',
       ]}
       benefits={[
         {
-          title: 'Better User Experience',
+          title: 'User-Friendly Mobile Experiences',
           description:
-            'Create intuitive mobile interfaces designed around real user needs and business objectives.',
+            'Create intuitive mobile interfaces with smooth navigation, responsive interactions, and experiences designed around real user needs.',
         },
         {
-          title: 'Cross-Platform Reach',
+          title: 'Scalable Application Architecture',
           description:
-            'Reach users across iOS and Android with the right native or cross-platform development approach.',
+            'Build mobile applications with an architecture that can support future features, users, integrations, and business growth.',
         },
         {
-          title: 'Business Automation',
+          title: 'Business System Integration',
           description:
-            'Connect mobile applications with your CRM, ERP, APIs, databases, and business automation workflows.',
+            'Connect mobile applications with CRM, ERP, payment systems, APIs, analytics platforms, and other business software.',
         },
         {
-          title: 'Scalable Mobile Products',
+          title: 'AR & Interactive Experiences',
           description:
-            'Build applications with architecture designed for future features, integrations, users, and business growth.',
+            'Use augmented reality, 3D visualization, and interactive features to create engaging customer and employee experiences.',
         },
         {
-          title: 'AR & VR Experiences',
+          title: 'Reliable Cross-Platform Delivery',
           description:
-            'Use immersive technologies for product visualization, training, simulations, engagement, and interactive experiences.',
+            'Choose native or cross-platform development based on your product requirements, performance expectations, budget, and roadmap.',
         },
         {
-          title: 'Post-Launch Support',
+          title: 'Launch & Post-Launch Support',
           description:
-            'Continue improving your application through analytics, maintenance, performance optimization, and new features.',
+            'Get support for deployment, analytics, maintenance, updates, performance monitoring, and future feature development.',
         },
       ]}
     >
       <MobileImmersiveSection />
 
-      {/* Internal Links */}
-      <section className="section-light py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl text-center">
-            <span className="text-sm font-semibold uppercase tracking-widest text-[#2563EB]">
-              Business Technology Solutions
-            </span>
-
-            <h2 className="mt-3 font-heading text-3xl font-bold text-[#0B1120] md:text-4xl">
-              Connect Your Mobile App With Your Business
-            </h2>
-
-            <p className="mt-4 text-[#64748B]">
-              Connect your mobile application with AI automation, custom
-              software, CRM, and digital marketing solutions to create a
-              complete digital ecosystem for your business.
+      {/* SEO-focused internal linking section */}
+      <section className="py-16">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="max-w-3xl">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
+              Explore Our Solutions
             </p>
 
-            <div className="mt-10 flex flex-wrap justify-center gap-3">
-              <Link
-                href="/ai-automation"
-                className="inline-flex items-center gap-2 rounded-xl border border-[#E2E8F0] bg-white px-5 py-3 text-sm font-semibold text-[#0B1120] transition hover:border-[#2563EB] hover:text-[#2563EB]"
-              >
+            <h2 className="font-heading text-3xl font-bold tracking-tight md:text-4xl">
+              Build a Complete Digital Solution With Our Technology Services
+            </h2>
+
+            <p className="mt-4 text-muted-foreground">
+              Mobile applications often work together with automation,
+              business software, CRM, and digital marketing systems. Explore
+              our related services to build a connected technology ecosystem
+              for your business.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <Link
+              href="/ai-automation"
+              className="group rounded-2xl border p-6 transition-colors hover:border-primary"
+            >
+              <h3 className="font-heading text-lg font-semibold">
                 AI Automation Services
-                <ArrowRight className="size-4" />
-              </Link>
+              </h3>
 
-              <Link
-                href="/custom-software"
-                className="inline-flex items-center gap-2 rounded-xl border border-[#E2E8F0] bg-white px-5 py-3 text-sm font-semibold text-[#0B1120] transition hover:border-[#2563EB] hover:text-[#2563EB]"
-              >
+              <p className="mt-2 text-sm text-muted-foreground">
+                Automate repetitive business workflows and connect AI with
+                your mobile applications.
+              </p>
+
+              <span className="mt-4 inline-flex items-center text-sm font-medium text-primary">
+                Explore AI Automation
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+
+            <Link
+              href="/custom-software"
+              className="group rounded-2xl border p-6 transition-colors hover:border-primary"
+            >
+              <h3 className="font-heading text-lg font-semibold">
                 Custom Software Development
-                <ArrowRight className="size-4" />
-              </Link>
+              </h3>
 
-              <Link
-                href="/crm-development"
-                className="inline-flex items-center gap-2 rounded-xl border border-[#E2E8F0] bg-white px-5 py-3 text-sm font-semibold text-[#0B1120] transition hover:border-[#2563EB] hover:text-[#2563EB]"
-              >
+              <p className="mt-2 text-sm text-muted-foreground">
+                Build custom business software and backend systems that work
+                seamlessly with your mobile application.
+              </p>
+
+              <span className="mt-4 inline-flex items-center text-sm font-medium text-primary">
+                Explore Custom Software
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+
+            <Link
+              href="/crm-development"
+              className="group rounded-2xl border p-6 transition-colors hover:border-primary"
+            >
+              <h3 className="font-heading text-lg font-semibold">
                 CRM Development
-                <ArrowRight className="size-4" />
-              </Link>
+              </h3>
 
-              <Link
-                href="/digital-marketing"
-                className="inline-flex items-center gap-2 rounded-xl border border-[#E2E8F0] bg-white px-5 py-3 text-sm font-semibold text-[#0B1120] transition hover:border-[#2563EB] hover:text-[#2563EB]"
-              >
-                Digital Marketing Services
-                <ArrowRight className="size-4" />
-              </Link>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Connect customer management, sales workflows, and mobile
+                applications through custom CRM solutions.
+              </p>
 
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 rounded-xl border border-[#E2E8F0] bg-white px-5 py-3 text-sm font-semibold text-[#0B1120] transition hover:border-[#2563EB] hover:text-[#2563EB]"
-              >
-                Contact Our Team
-                <ArrowRight className="size-4" />
-              </Link>
+              <span className="mt-4 inline-flex items-center text-sm font-medium text-primary">
+                Explore CRM Development
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+
+            <Link
+              href="/digital-marketing"
+              className="group rounded-2xl border p-6 transition-colors hover:border-primary"
+            >
+              <h3 className="font-heading text-lg font-semibold">
+                Digital Marketing
+              </h3>
+
+              <p className="mt-2 text-sm text-muted-foreground">
+                Promote your mobile application through SEO, paid advertising,
+                social media, and lead generation strategies.
+              </p>
+
+              <span className="mt-4 inline-flex items-center text-sm font-medium text-primary">
+                Explore Digital Marketing
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile app development FAQ */}
+      <section className="py-16">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="text-center">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
+              Frequently Asked Questions
+            </p>
+
+            <h2 className="font-heading text-3xl font-bold tracking-tight md:text-4xl">
+              Mobile App Development FAQs
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+              Answers to common questions about mobile app development,
+              platforms, technologies, AR/VR applications, and integrations.
+            </p>
+          </div>
+
+          <div className="mt-10 space-y-6">
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                What does a mobile app development company do?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                A mobile app development company designs, develops, tests, and
+                deploys applications for mobile platforms such as iOS and
+                Android. The process can include UI/UX design, backend
+                development, API integrations, testing, deployment, analytics,
+                and ongoing maintenance.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                Do you provide iOS and Android app development?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                Yes. We develop custom mobile applications for both iOS and
+                Android. Depending on the project requirements, we can
+                recommend native or cross-platform development approaches.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                Do you provide React Native app development?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                Yes. React Native can be used to develop cross-platform mobile
+                applications for iOS and Android. The appropriate technology is
+                selected based on the application's performance, features,
+                integrations, timeline, and long-term roadmap.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                Can you build custom AR and VR applications?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                Yes. We can develop AR and VR experiences for use cases such
+                as product visualization, interactive experiences, training,
+                simulations, and immersive applications using suitable
+                technologies and platforms.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                Do you provide mobile game development?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                Yes. We can develop 2D and 3D mobile games with features such
+                as gamification, leaderboards, rewards, multiplayer
+                functionality, analytics, and in-app monetization depending on
+                the project requirements.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                Can a custom mobile app integrate with CRM and ERP systems?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                Yes. Mobile applications can integrate with CRM, ERP, payment
+                gateways, business APIs, analytics platforms, authentication
+                systems, and other software through secure APIs and
+                integrations.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border p-6">
+              <h3 className="font-heading text-lg font-semibold">
+                How much does custom mobile app development cost?
+              </h3>
+
+              <p className="mt-3 text-muted-foreground">
+                The cost depends on factors such as app complexity, number of
+                platforms, UI/UX requirements, backend functionality,
+                integrations, authentication, real-time features, AR/VR
+                requirements, and ongoing support. A project-specific estimate
+                can be prepared after understanding your requirements.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="section-light py-24">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <span className="text-sm font-semibold uppercase tracking-widest text-[#2563EB]">
-              FAQ
-            </span>
-
-            <h2 className="mt-3 font-heading text-3xl font-bold text-[#0B1120] md:text-4xl">
-              Mobile App Development FAQs
+      {/* Final CTA with internal link */}
+      <section className="pb-16">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="rounded-3xl border p-8 text-center md:p-12">
+            <h2 className="font-heading text-3xl font-bold md:text-4xl">
+              Looking for a Mobile App Development Company?
             </h2>
 
-            <p className="mt-4 text-[#64748B]">
-              Common questions about mobile app development, iOS, Android,
-              React Native, AR/VR, and mobile game development.
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+              Tell us about your mobile application, business requirements,
+              target platforms, and features. Our team can help you plan the
+              right development approach.
             </p>
-          </div>
 
-          <div className="mt-12 space-y-5">
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
-              <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                What does a mobile app development company do?
-              </h3>
-              <p className="mt-3 leading-relaxed text-[#64748B]">
-                A mobile app development company designs, develops, tests, and
-                launches applications for platforms such as iOS and Android.
-                Services can include custom business apps, customer-facing
-                applications, integrations, analytics, and post-launch support.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
-              <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                Do you provide iOS and Android app development?
-              </h3>
-              <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. We develop custom iOS and Android applications and can
-                recommend native or cross-platform development depending on
-                project requirements, performance needs, users, and budget.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
-              <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                Do you provide React Native app development?
-              </h3>
-              <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. React Native can be used to develop cross-platform mobile
-                applications for iOS and Android when shared development is
-                appropriate for the project's requirements.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
-              <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                Can you build custom AR and VR applications?
-              </h3>
-              <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. We build AR and VR experiences for use cases such as
-                product visualization, immersive training, simulations,
-                interactive experiences, and customer engagement.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
-              <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                Do you provide mobile game development?
-              </h3>
-              <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. Our capabilities include 2D and 3D mobile game
-                development, Unity and Unreal Engine experiences, gamification,
-                multiplayer functionality, and mobile game integrations.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-6">
-              <h3 className="font-heading text-lg font-bold text-[#0B1120]">
-                Can a custom mobile app integrate with CRM and ERP systems?
-              </h3>
-              <p className="mt-3 leading-relaxed text-[#64748B]">
-                Yes. Depending on API availability and system requirements,
-                mobile applications can integrate with CRM, ERP, databases,
-                payment systems, communication platforms, analytics tools, and
-                other business applications.
-              </p>
-            </div>
+            <Link
+              href="/contact"
+              className="mt-8 inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+            >
+              Discuss Your App Project
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>
