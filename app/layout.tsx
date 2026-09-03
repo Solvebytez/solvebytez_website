@@ -1,9 +1,3 @@
-<head>
-  <meta
-    name="google-site-verification"
-    content="6P5PSMAF6pRQ2Jz-upw7bTbLBiYIyeiXeli3EpMcUKc"
-  />
-</head>
 
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
@@ -35,6 +29,12 @@ const sora = Sora({
 })
 
 export const metadata: Metadata = {
+
+verification: {
+    google: '6P5PSMAF6pRQ2Jz-upw7bTbLBiYIyeiXeli3EpMcUKc',
+  },
+
+  
   metadataBase: new URL(siteUrl),
   title: {
     default: `${siteConfig.name} — AI Business Automation & Custom Software`,
