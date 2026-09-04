@@ -29,6 +29,7 @@ export const metadata = createPageMetadata({
 export default function PortfolioPage() {
   return (
     <>
+      {/* Breadcrumb Schema */}
       <JsonLd
         data={breadcrumbJsonLd([
           { name: 'Home', path: '/' },
@@ -36,6 +37,7 @@ export default function PortfolioPage() {
         ])}
       />
 
+      {/* Main Portfolio Content */}
       <PortfolioContent />
 
       {/* Internal Linking Section */}
@@ -52,12 +54,13 @@ export default function PortfolioPage() {
 
             <p className="mt-4 text-lg text-muted-foreground">
               Explore the technologies and business solutions behind our
-              software development projects, including AI automation, CRM,
-              ERP, custom software, mobile apps, and digital solutions.
+              software development projects, including AI automation, custom
+              software, CRM, ERP, mobile apps, and workflow automation.
             </p>
           </div>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {/* AI Automation */}
             <Link
               href="/ai-automation"
               className="group rounded-2xl border p-6 transition hover:shadow-lg"
@@ -67,8 +70,9 @@ export default function PortfolioPage() {
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                Explore AI-powered automation, intelligent workflows, AI
-                agents, chatbots, and business process automation solutions.
+                Explore AI automation projects including AI chatbots,
+                intelligent workflows, AI agents, and business process
+                automation.
               </p>
 
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
@@ -77,6 +81,7 @@ export default function PortfolioPage() {
               </span>
             </Link>
 
+            {/* Custom Software */}
             <Link
               href="/custom-software"
               className="group rounded-2xl border p-6 transition hover:shadow-lg"
@@ -86,8 +91,9 @@ export default function PortfolioPage() {
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                Discover custom software development solutions built around
-                specific business workflows, requirements, and processes.
+                Discover custom software projects built around specific
+                business requirements, workflows, integrations, and
+                operational needs.
               </p>
 
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
@@ -96,6 +102,7 @@ export default function PortfolioPage() {
               </span>
             </Link>
 
+            {/* CRM */}
             <Link
               href="/crm-development"
               className="group rounded-2xl border p-6 transition hover:shadow-lg"
@@ -105,8 +112,8 @@ export default function PortfolioPage() {
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                Explore custom CRM development projects for sales, customer
-                management, lead tracking, and business operations.
+                Explore custom CRM development projects for sales management,
+                customer data, lead tracking, and business operations.
               </p>
 
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
@@ -115,6 +122,7 @@ export default function PortfolioPage() {
               </span>
             </Link>
 
+            {/* ERP */}
             <Link
               href="/erp-solutions"
               className="group rounded-2xl border p-6 transition hover:shadow-lg"
@@ -125,7 +133,8 @@ export default function PortfolioPage() {
 
               <p className="mt-2 text-muted-foreground">
                 Explore ERP development solutions designed to streamline
-                operations, data management, and business processes.
+                business operations, workflows, reporting, and data
+                management.
               </p>
 
               <span className="mt-4 inline-flex items-center gap-2 font-medium">
@@ -134,6 +143,7 @@ export default function PortfolioPage() {
               </span>
             </Link>
 
+            {/* n8n */}
             <Link
               href="/n8n-automation"
               className="group rounded-2xl border p-6 transition hover:shadow-lg"
@@ -153,6 +163,7 @@ export default function PortfolioPage() {
               </span>
             </Link>
 
+            {/* Mobile Apps */}
             <Link
               href="/mobile-apps"
               className="group rounded-2xl border p-6 transition hover:shadow-lg"
@@ -162,7 +173,7 @@ export default function PortfolioPage() {
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                Explore mobile app development solutions for Android, iOS,
+                Explore mobile application projects for Android, iOS,
                 cross-platform applications, and immersive experiences.
               </p>
 
@@ -188,12 +199,13 @@ export default function PortfolioPage() {
             </h2>
 
             <p className="mt-4 text-lg text-muted-foreground">
-              Learn more about our software development projects, technologies,
-              and business solutions.
+              Learn more about our software development projects,
+              technologies, and business solutions.
             </p>
           </div>
 
           <div className="mt-10 space-y-6">
+            {/* FAQ 1 */}
             <div>
               <h3 className="text-xl font-semibold">
                 What types of software development projects does Solvebytez
@@ -207,6 +219,7 @@ export default function PortfolioPage() {
               </p>
             </div>
 
+            {/* FAQ 2 */}
             <div>
               <h3 className="text-xl font-semibold">
                 Does Solvebytez provide custom software development?
@@ -219,6 +232,7 @@ export default function PortfolioPage() {
               </p>
             </div>
 
+            {/* FAQ 3 */}
             <div>
               <h3 className="text-xl font-semibold">
                 What AI automation projects can you develop?
@@ -231,6 +245,7 @@ export default function PortfolioPage() {
               </p>
             </div>
 
+            {/* FAQ 4 */}
             <div>
               <h3 className="text-xl font-semibold">
                 Do you develop custom CRM and ERP software?
@@ -243,6 +258,7 @@ export default function PortfolioPage() {
               </p>
             </div>
 
+            {/* FAQ 5 */}
             <div>
               <h3 className="text-xl font-semibold">
                 Can you build a software solution similar to one shown in your
@@ -250,24 +266,27 @@ export default function PortfolioPage() {
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                Yes. Portfolio projects can be used as examples of our
-                capabilities. Each new solution is designed according to the
-                client's specific business requirements and objectives.
+                Yes. Portfolio projects can demonstrate our technical
+                capabilities and experience. Each new software solution is
+                designed according to the client's specific requirements and
+                objectives.
               </p>
             </div>
 
+            {/* FAQ 6 */}
             <div>
               <h3 className="text-xl font-semibold">
                 Which industries do you serve?
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                Our solutions can support industries including healthcare,
-                pharma, manufacturing, logistics, education, hospitality,
-                retail, construction, finance, and real estate.
+                Our software solutions can support industries including
+                healthcare, pharma, manufacturing, logistics, education,
+                hospitality, retail, construction, finance, and real estate.
               </p>
             </div>
 
+            {/* FAQ 7 */}
             <div>
               <h3 className="text-xl font-semibold">
                 How can I discuss a software development project with
@@ -275,9 +294,9 @@ export default function PortfolioPage() {
               </h3>
 
               <p className="mt-2 text-muted-foreground">
-                You can contact our team to discuss your requirements,
-                project goals, preferred technology, integrations, and
-                development scope.
+                You can contact our team to discuss your requirements, project
+                goals, preferred technology, integrations, and development
+                scope.
               </p>
             </div>
           </div>
