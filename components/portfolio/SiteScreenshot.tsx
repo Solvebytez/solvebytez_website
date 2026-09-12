@@ -55,6 +55,13 @@ export function SiteScreenshot({
     setFailed(false)
   }, [])
 
+  const imgRef = useCallback((node: HTMLImageElement | null) => {
+    if (node && node.complete && node.naturalWidth > 0) {
+      setLoaded(true)
+      setFailed(false)
+    }
+  }, [])
+
   return (
     <div className={cn('relative overflow-hidden bg-[#E2E8F0]', className)}>
       {showChrome && (
@@ -96,6 +103,7 @@ export function SiteScreenshot({
         {!failed && (
           <img
             key={currentSrc}
+            ref={imgRef}
             src={currentSrc}
             alt={alt}
             loading="lazy"
