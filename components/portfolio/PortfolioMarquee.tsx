@@ -20,6 +20,7 @@ const categoryAccent: Record<PortfolioProject['category'], string> = {
   Retail: '#EAB308',
   'Mobile Apps': '#14B8A6',
   Games: '#F97316',
+  'Finance & Tax': '#16A34A',
 }
 
 function getInitials(name: string) {

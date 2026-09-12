@@ -10,6 +10,7 @@ export type PortfolioCategory =
   | 'Retail'
   | 'Mobile Apps'
   | 'Games'
+  | 'Finance & Tax'
 
 export interface PortfolioProject {
   id: string
@@ -54,6 +55,7 @@ export const portfolioCategories: PortfolioCategory[] = [
   'Retail',
   'Mobile Apps',
   'Games',
+  'Finance & Tax',
 ]
 
 export const portfolioProjects: PortfolioProject[] = [
@@ -523,7 +525,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'CheckPayDate',
     url: 'https://checkpaydate.com',
     domain: 'checkpaydate.com',
-    category: 'Enterprise',
+    category: 'Finance & Tax',
     featured: true,
     region: 'USA',
   },
@@ -532,7 +534,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'BrickFinder',
     url: 'https://www.brickidfinder.com/',
     domain: 'brickidfinder.com',
-    category: 'Enterprise',
+    category: 'Games',
     featured: true,
     region: 'International',
   },

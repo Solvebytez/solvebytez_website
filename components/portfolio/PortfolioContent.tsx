@@ -18,6 +18,7 @@ import {
   Wrench,
   Store,
   Smartphone,
+  Landmark,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import {
@@ -45,6 +46,7 @@ const categoryIcons: Record<Exclude<PortfolioCategory, 'All'>, LucideIcon> = {
   Retail: Store,
   'Mobile Apps': Smartphone,
   Games: Sparkles,
+  'Finance & Tax': Landmark,
 }
 
 const categoryColors: Record<Exclude<PortfolioCategory, 'All'>, string> = {
@@ -58,6 +60,7 @@ const categoryColors: Record<Exclude<PortfolioCategory, 'All'>, string> = {
   Retail: '#EAB308',
   'Mobile Apps': '#14B8A6',
   Games: '#F97316',
+  'Finance & Tax': '#16A34A',
 }
 
 function getInitials(name: string) {
