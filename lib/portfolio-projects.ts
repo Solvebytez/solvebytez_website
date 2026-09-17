@@ -538,6 +538,15 @@ export const portfolioProjects: PortfolioProject[] = [
     featured: true,
     region: 'International',
   },
+  {
+    id: '61',
+    name: 'Animal ID Finder',
+    url: 'https://www.animalidfinder.com/',
+    domain: 'animalidfinder.com',
+    category: 'Games',
+    featured: true,
+    region: 'International',
+  },
 ]
 
 export const featuredProjects = portfolioProjects.filter((p) => p.featured)
@@ -545,6 +554,7 @@ export const featuredProjects = portfolioProjects.filter((p) => p.featured)
 export const homepagePortfolioProjects = (() => {
   // Home page: user-specified pins, then fill remaining slots without duplicates.
   const pinnedDomains = [
+    'animalidfinder.com',
     'brickidfinder.com',
     'checkpaydate.com',
     'spinifywheel.com',

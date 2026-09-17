@@ -71,6 +71,7 @@ const projects = [
   { id: '58', slug: 'spinifywheel-com', url: 'https://www.spinifywheel.com/' },
   { id: '59', slug: 'checkpaydate-com', url: 'https://checkpaydate.com' },
   { id: '60', slug: 'brickidfinder-com', url: 'https://www.brickidfinder.com/' },
+  { id: '61', slug: 'animalidfinder-com', url: 'https://www.animalidfinder.com/' },
 ]
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
